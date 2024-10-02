@@ -8,16 +8,18 @@ const Header = () => {
         <div className="header_logo">LOGO</div>
         <div className="header_links">
           <span>
-            <Link to="/about-us">About Us</Link>
+            <Link to="/about-us">About Us </Link>
+            <i class="fa-solid fa-chevron-right" />
+          </span>
+          <span>
+            <Link to="/specialisation">Specialisation</Link>
+            <i class="fa-solid fa-chevron-right" />
           </span>
           <span>
             <Link to="/blogs">Blogs</Link>
           </span>
           <span>
-            <Link to="/specialisation">Specialisation</Link>
-          </span>
-          <span>
-            <Link to="/services">Services</Link>
+            <a href="#reach">Reach us</a>
           </span>
         </div>
         <div className="header_button">

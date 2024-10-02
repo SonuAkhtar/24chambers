@@ -2,7 +2,7 @@ import "./reach.css";
 
 const Reach = () => {
   return (
-    <section className="reach">
+    <section className="reach" id="reach">
       <div className="section_wrapper">
         <h1 className="section_title">Reach</h1>
       </div>
