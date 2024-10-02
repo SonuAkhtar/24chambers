@@ -45,8 +45,8 @@ const HomeSpecial = () => {
       <div className="section_wrapper">
         <h1 className="section_title">Our Specialization</h1>
         <div className="special_cards">
-          {specialData.map((card) => (
-            <div className="card_item">
+          {specialData.map((card, index) => (
+            <div key={index} className="card_item">
               <h2 className="card_number">{card.number}</h2>
               <h3 className="card_title">{card.title}</h3>
               <p className="card_info">{card.info}</p>

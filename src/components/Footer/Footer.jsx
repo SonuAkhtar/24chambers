@@ -33,13 +33,13 @@ const Footer = () => {
           </div>
           <div className="socials">
             <span>
-              <i class="fa-brands fa-facebook-f" />
+              <i className="fa-brands fa-facebook-f" />
             </span>
             <span>
-              <i class="fa-brands fa-linkedin-in" />
+              <i className="fa-brands fa-linkedin-in" />
             </span>
             <span>
-              <i class="fa-brands fa-x-twitter" />
+              <i className="fa-brands fa-x-twitter" />
             </span>
           </div>
           <div className="footer_resourse">
