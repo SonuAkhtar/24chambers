@@ -1,25 +1,56 @@
-import React from "react";
-import Newsletter from "../Newsletter/Newsletter";
 import "./footer.css";
 
 const Footer = () => {
   return (
-    <section className="footer">
-      {/* <Newsletter /> */}
-      <div className="footer_container">
-        <div className="left">
-          <span className="logo">LOGO</span>
-        </div>
-        <div className="right">
-          <div className="icons">
-            <i className="fa-brands fa-facebook-f"></i>
-            <i className="fa-brands fa-linkedin-in"></i>
-            <i className="fa-brands fa-twitter"></i>
+    <footer className="footer_container">
+      <div className="footer_wrapper">
+        <div className="footer_top">
+          <div className="logo">LOGO</div>
+
+          <div className="footer_links">
+            <div className="footer_link_item">
+              <h2>Services</h2>
+              <div className="links">
+                <span>Link 1</span>
+                <span>Link 1</span>
+                <span>Link 1</span>
+              </div>
+            </div>
+            <div className="footer_link_item">
+              <h2>Expertise</h2>
+              <div className="links">
+                <span>Link 1</span>
+                <span>Link 1</span>
+                <span>Link 1</span>
+              </div>
+            </div>
           </div>
-          <div className="copyright">Copyright 2023. All Rights Reserved</div>
+        </div>
+        <hr />
+        <div className="footer_bottom">
+          <div className="copyright">
+            24 Chambers | <span>&#169;</span> All rights reserved 2024
+          </div>
+          <div className="socials">
+            <span>
+              <i class="fa-brands fa-facebook-f" />
+            </span>
+            <span>
+              <i class="fa-brands fa-linkedin-in" />
+            </span>
+            <span>
+              <i class="fa-brands fa-x-twitter" />
+            </span>
+          </div>
+          <div className="footer_resourse">
+            <span>Terms & Conditions</span>
+            <span>Privacy Policy</span>
+            <span>Cookies</span>
+            <span>License</span>
+          </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 
