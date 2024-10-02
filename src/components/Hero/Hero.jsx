@@ -2,8 +2,10 @@ import "./hero.css";
 
 const Hero = () => {
   return (
-    <section className="hero_container">
-      <div className="hero_wrapper">Hero</div>
+    <section className="hero">
+      <div className="section_wrapper">
+        <h1 className="section_title">Hero</h1>
+      </div>
     </section>
   );
 };

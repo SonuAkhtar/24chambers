@@ -2,8 +2,10 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <section className="contact_container">
-      <div className="contact_wrapper">Contact</div>
+    <section className="contact">
+      <div className="section_wrapper">
+        <h1 className="section_title">Contact</h1>
+      </div>
     </section>
   );
 };
