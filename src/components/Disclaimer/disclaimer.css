@@ -1,0 +1,142 @@
+section.disclaimer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 0;
+  z-index: 999;
+}
+
+.disclaimer_wrapper {
+  height: 100%;
+  min-height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+  padding: 2rem 3rem;
+  background-color: #fafafa;
+}
+
+.disclaimer_title {
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+.disclaimer_info {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.disclaimer_info p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.disclaimer_info .list_items li {
+  padding-left: 1rem;
+  margin: 0.25rem 0;
+}
+
+.disclaimer_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.disclaimer_button button {
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: #333;
+}
+
+.disclaimer_button button.agree {
+  background-color: lightgreen;
+}
+
+.disclaimer_button button.agree:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.disclaimer_button button.decline {
+  border: 1px solid lightcoral;
+  background-color: transparent;
+}
+
+.disclaimer_button button.decline:hover {
+  background-color: red;
+  color: #fff;
+}
+
+/* responsive design for mobile devices */
+@media screen and (max-width: 600px) {
+  section.disclaimer {
+    padding: 5vh 0;
+  }
+
+  .disclaimer_wrapper {
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .disclaimer_title {
+    font-size: 2rem;
+  }
+
+  .disclaimer_info {
+    height: 60vh;
+    overflow-y: scroll;
+    gap: 2rem;
+  }
+
+  .disclaimer_info p {
+    font-size: 0.9rem;
+  }
+
+  .disclaimer_info .list_items li {
+    position: relative;
+    font-size: 0.9rem;
+  }
+
+  .disclaimer_info .list_items li::before {
+    position: absolute;
+    top: 5px;
+    left: 0.2rem;
+    content: "";
+    height: 0.4rem;
+    width: 0.4rem;
+    border-radius: 50%;
+    background-color: #333;
+  }
+
+  .disclaimer_button button {
+    font-size: 0.9rem;
+  }
+
+  .disclaimer_button button.agree {
+    background-color: green;
+    color: #fafafa;
+  }
+
+  .disclaimer_button button.decline {
+    background-color: red;
+    color: #fafafa;
+  }
+}

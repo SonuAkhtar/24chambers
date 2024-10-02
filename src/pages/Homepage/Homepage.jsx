@@ -14,8 +14,8 @@ import Disclaimer from "../../components/Disclaimer/Disclaimer";
 const Homepage = () => {
   return (
     <div className="homepage_container">
-      <Header />
       {/* <Disclaimer /> */}
+      <Header />
       <Hero />
       <AboutUs />
       <HomeSpecial />

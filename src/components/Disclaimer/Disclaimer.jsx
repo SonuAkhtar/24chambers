@@ -1,9 +1,36 @@
+// import CSS
 import "./disclaimer.css";
+
+// import AppData
+import { discData } from "../../../appData";
 
 const Disclaimer = () => {
   return (
-    <section className="disclaimer_container">
-      <div className="disclaimer_wrapper">Disclaimer</div>
+    <section className="disclaimer">
+      <div className="disclaimer_wrapper">
+        <h1 className="disclaimer_title">DISCLAIMER</h1>
+        <div className="disclaimer_info">
+          <p>
+            The rules of the Bar Council of India do not permit the solicitation
+            of work or advertising by legal practitioners except as permitted
+            under the aforesaid rules. The information displayed on this website
+            is solely for informational purposes and should not be interpreted
+            as soliciting or advertisement. By accessing the website of 24
+            Chambers, you acknowledge that:
+          </p>
+          <div className="list_items">
+            <ul>
+              {discData.map((data) => (
+                <li key={data.id}>{data.info}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="disclaimer_button">
+          <button className="agree">I Agree</button>
+          <button className="decline">Decline</button>
+        </div>
+      </div>
     </section>
   );
 };
