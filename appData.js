@@ -32,3 +32,51 @@ export const discData = [
     info: "You hereby agree to the Privacy Policy of 24 Chambers.",
   },
 ];
+
+export const specialData = [
+  {
+    id: 1,
+    title: "Litigation",
+    info: "We solve cases related to sexual harassment of all types",
+  },
+  {
+    id: 2,
+    title: "Taxation",
+    info: "We solve cases related to sexual harassment of all types",
+  },
+  {
+    id: 3,
+    title: "Corporate",
+    info: "We solve cases related to sexual harassment of all types",
+  },
+  {
+    id: 4,
+    title: "Real Estate",
+    info: "We solve cases related to sexual harassment of all types",
+  },
+  {
+    id: 5,
+    title: "Criminal",
+    info: "We solve cases related to sexual harassment of all types",
+  },
+  {
+    id: 6,
+    title: "Domestic Violance",
+    info: "We solve cases related to sexual harassment of all types",
+  },
+  {
+    id: 7,
+    title: "Regulatory",
+    info: "We solve cases related to sexual harassment of all types",
+  },
+  {
+    id: 8,
+    title: "Competition",
+    info: "We solve cases related to sexual harassment of all types",
+  },
+  {
+    id: 9,
+    title: "Intellectual",
+    info: "We solve cases related to sexual harassment of all types",
+  },
+];

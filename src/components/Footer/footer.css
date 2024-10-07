@@ -4,8 +4,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #333;
-  color: #fff;
+  background-color: var(--main-blue);
+  color: var(--main-gold);
 }
 
 .footer_wrapper {
@@ -23,6 +23,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer_top .footer_logo img {
+  width: 6rem;
+  cursor: pointer;
 }
 
 .footer_top .footer_links {

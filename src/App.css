@@ -7,6 +7,11 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  --main-blue: #222d4b;
+  --main-gold: #c29a70;
+}
+
 /* section level common css */
 section {
   padding: 5vh 1rem;
@@ -25,7 +30,12 @@ section {
 }
 
 .section_title {
-  margin-bottom: 4rem;
+  text-align: center;
   font-size: 4rem;
-  opacity: 0.6;
+  color: var(--main-gold);
+}
+
+section:nth-child(odd) {
+  background-color: var(--main-blue);
+  color: #fafafa;
 }

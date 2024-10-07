@@ -1,11 +1,17 @@
 import "./footer.css";
 
+//import logoImage from "../../assets/23chambers_logo.jpg";
+//import logoImage from "../../assets/23chambers_logo-nobg.png";
+import logoImage from "../../assets/23chambers_logo-new.jpg";
+
 const Footer = () => {
   return (
     <footer className="footer_container">
       <div className="footer_wrapper">
         <div className="footer_top">
-          <div className="logo">LOGO</div>
+          <a className="footer_logo" href="#hero">
+            <img src={logoImage} alt="header logo" />
+          </a>
 
           <div className="footer_links">
             <div className="footer_link_item">
