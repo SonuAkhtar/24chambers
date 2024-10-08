@@ -28,6 +28,7 @@
 .footer_top .footer_logo img {
   width: 6rem;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .footer_top .footer_links {
@@ -52,6 +53,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .footer_bottom .socials {
@@ -72,10 +74,13 @@
   cursor: pointer;
 }
 
-.footer_bottom .footer_resourse {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+.footer_bottom .footer_address,
+.footer_bottom .copyright {
   font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.footer_bottom .footer_address span {
+  font-weight: 500;
+  font-size: 1rem;
 }

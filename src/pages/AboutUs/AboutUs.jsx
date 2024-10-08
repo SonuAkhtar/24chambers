@@ -1,6 +1,16 @@
 // import CSS
 import "./aboutUs.css";
 
+// import Images
+import image1 from "/Images/assets/about/Picture1.jpg";
+import image2 from "/Images/assets/about/Picture2.jpg";
+import image3 from "/Images/assets/about/Picture3.png";
+import image4 from "/Images/assets/about/Picture4.png";
+import image5 from "/Images/assets/about/Picture5.png";
+import image6 from "/Images/assets/about/Picture6.png";
+import image7 from "/Images/assets/about/Picture7.png";
+import image8 from "/Images/assets/about/Picture8.png";
+
 // import components
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
@@ -40,11 +50,11 @@ const AboutUs = () => {
                 Advocate.
               </div>
 
-              <img src="Images/person-1.jpg" alt="image" />
+              <img src={image1} alt="about us image" />
             </div>
 
             <div className="section_detail">
-              <img src="Images/person-1.jpg" alt="image" />
+              <img src={image2} alt="about us image" />
 
               <div className="section_image_info">
                 Over the years, the chamber evolved and adapted to the changing
@@ -86,7 +96,7 @@ const AboutUs = () => {
                 Bar Association
               </div>
 
-              <img src="Images/person-1.jpg" alt="image" />
+              <img src={image3} alt="about us image" />
             </div>
           </section>
 
@@ -96,7 +106,7 @@ const AboutUs = () => {
             <div className="team_detail">
               <div className="team_left">
                 <div className="team_left_img">
-                  <img src="Images/person-1.jpg" alt="image" />
+                  <img src={image4} alt="about us image" />
                 </div>
                 <div className="team_left_name">Ms Tanvi Nigam</div>
 
@@ -154,7 +164,7 @@ const AboutUs = () => {
             <div className="team_detail">
               <div className="team_left">
                 <div className="team_left_img">
-                  <img src="Images/person-1.jpg" alt="image" />
+                  <img src={image5} alt="about us image" />
                 </div>
                 <div className="team_left_name">Ms Tanvi Nigam</div>
 
@@ -216,7 +226,7 @@ const AboutUs = () => {
             <div className="counsels_cards">
               <div className="card_item">
                 <div className="counsel_img">
-                  <img src="Images/person-1.jpg" alt="image" />
+                  <img src={image6} alt="about us image" />
                 </div>
 
                 <div className="counsel_name">Ms Monica Bhardwaj</div>
@@ -229,7 +239,7 @@ const AboutUs = () => {
 
               <div className="card_item">
                 <div className="counsel_img">
-                  <img src="Images/person-1.jpg" alt="image" />
+                  <img src={image7} alt="about us image" />
                 </div>
 
                 <div className="counsel_name">Mr Ashwin Romy</div>
@@ -242,7 +252,7 @@ const AboutUs = () => {
 
               <div className="card_item">
                 <div className="counsel_img">
-                  <img src="Images/person-1.jpg" alt="image" />
+                  <img src={image8} alt="about us image" />
                 </div>
 
                 <div className="counsel_name">Mr Kaustubh Shakkarwar</div>

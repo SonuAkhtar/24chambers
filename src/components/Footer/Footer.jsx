@@ -1,8 +1,8 @@
+// import CSS
 import "./footer.css";
 
-//import logoImage from "../../assets/23chambers_logo.jpg";
-//import logoImage from "../../assets/23chambers_logo-nobg.png";
-import logoImage from "../../assets/23chambers_logo-new.jpg";
+// import Images
+import logoImage from "/Images/assets/23chambers_logo.jpg";
 
 const Footer = () => {
   return (
@@ -22,21 +22,10 @@ const Footer = () => {
                 <span>Link 1</span>
               </div>
             </div>
-            <div className="footer_link_item">
-              <h2>Expertise</h2>
-              <div className="links">
-                <span>Link 1</span>
-                <span>Link 1</span>
-                <span>Link 1</span>
-              </div>
-            </div>
           </div>
         </div>
         <hr />
         <div className="footer_bottom">
-          <div className="copyright">
-            24 Chambers | <span>&#169;</span> All rights reserved 2024
-          </div>
           <div className="socials">
             <span>
               <i className="fa-brands fa-facebook-f" />
@@ -48,11 +37,13 @@ const Footer = () => {
               <i className="fa-brands fa-x-twitter" />
             </span>
           </div>
-          <div className="footer_resourse">
-            <span>Terms & Conditions</span>
-            <span>Privacy Policy</span>
-            <span>Cookies</span>
-            <span>License</span>
+          <div className="footer_address">
+            <span>Address: </span>24 Jangpura ‘A’, 1st Floor, Mathura Road, New
+            Delhi-110014
+          </div>
+
+          <div className="copyright">
+            24 Chambers | <span>&#169;</span> All rights reserved 2024
           </div>
         </div>
       </div>
