@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 // import CSS
 import "./header.css";
 
+// import Components
+import Hamburger from "../Hamburger/Hamburger";
+
 // import Images
 import logoImage from "/Images/assets/23chambers_logo.jpg";
 
@@ -17,19 +20,7 @@ const Header = () => {
           <img className="header_logo" src={logoImage} alt="header logo" />
         </Link>
 
-        {/* hamburger menu */}
-        <div
-          className={`ham_wrapper ${burgerClick && "active"}`}
-          onClick={() => setBurgerClick(!burgerClick)}
-        >
-          <div className="ham_icon">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-
-        {/* hamburger menu */}
+        <Hamburger burgerClick={burgerClick} setBurgerClick={setBurgerClick} />
 
         <div className={`header_links ${burgerClick ? "active" : ""}`}>
           <span>
