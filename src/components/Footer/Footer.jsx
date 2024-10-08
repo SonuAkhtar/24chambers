@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // import CSS
 import "./footer.css";
 
@@ -9,17 +11,24 @@ const Footer = () => {
     <footer className="footer_container">
       <div className="footer_wrapper">
         <div className="footer_top">
-          <a className="footer_logo" href="#hero">
-            <img src={logoImage} alt="header logo" />
-          </a>
+          <Link to="/">
+            <img className="footer_logo" src={logoImage} alt="header logo" />
+          </Link>
 
           <div className="footer_links">
             <div className="footer_link_item">
-              <h2>Services</h2>
+              <h2>Specialisation</h2>
               <div className="links">
-                <span>Link 1</span>
-                <span>Link 1</span>
-                <span>Link 1</span>
+                <span>Litigation</span>
+                <span>Dispute Resolution</span>
+              </div>
+            </div>
+
+            <div className="footer_link_item">
+              <h2>About Us</h2>
+              <div className="links">
+                <span>Founders</span>
+                <span>Team Members</span>
               </div>
             </div>
           </div>

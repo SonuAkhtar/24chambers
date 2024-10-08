@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 // import CSS
@@ -7,21 +8,47 @@ import "./header.css";
 import logoImage from "/Images/assets/23chambers_logo.jpg";
 
 const Header = () => {
+  const [burgerClick, setBurgerClick] = useState(false);
+
   return (
     <header className="header_container">
       <div className="header_wrapper">
-        <a className="header_logo" href="#hero">
-          <img src={logoImage} alt="header logo" />
-        </a>
+        <Link to="/">
+          <img className="header_logo" src={logoImage} alt="header logo" />
+        </Link>
 
-        <div className="header_links">
+        {/* hamburger menu */}
+        <div
+          className={`ham_wrapper ${burgerClick && "active"}`}
+          onClick={() => setBurgerClick(!burgerClick)}
+        >
+          <div className="ham_icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        {/* hamburger menu */}
+
+        <div className={`header_links ${burgerClick ? "active" : ""}`}>
           <span>
             <Link to="/about-us">About Us </Link>
             <i className="fa-solid fa-chevron-right" />
+
+            <div className="header_link_items">
+              <Link to="/about-us">Founders</Link>
+              <Link to="/about-us">Team Members</Link>
+            </div>
           </span>
           <span>
             <Link to="/specialisation">Specialisation</Link>
             <i className="fa-solid fa-chevron-right" />
+
+            <div className="header_link_items">
+              <Link to="/about-us">Litigation</Link>
+              <Link to="/about-us">Dispute Resolution</Link>
+            </div>
           </span>
           <span>
             <Link to="/blogs">Blogs</Link>
@@ -30,7 +57,7 @@ const Header = () => {
             <a href="#reach">Reach us</a>
           </span>
         </div>
-        <div className="header_button">
+        <div className={`header_button ${burgerClick ? "active" : ""}`}>
           <button>Contact Us</button>
         </div>
       </div>
