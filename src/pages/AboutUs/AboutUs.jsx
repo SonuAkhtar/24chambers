@@ -53,7 +53,7 @@ const AboutUs = () => {
               <img src={image1} alt="about us image" />
             </div>
 
-            <div className="section_detail">
+            <div className="section_detail second">
               <img src={image2} alt="about us image" />
 
               <div className="section_image_info">
