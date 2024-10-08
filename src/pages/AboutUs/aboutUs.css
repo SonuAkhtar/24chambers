@@ -174,10 +174,12 @@
 }
 
 /* Counsels section */
-.counsels {
+section.counsels {
   margin: 5rem 0 2rem 0;
   position: relative;
-  background-color: var(--main-blue);
+  background-color: #fafafa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
 }
 
 .counsels .counsels_title {
