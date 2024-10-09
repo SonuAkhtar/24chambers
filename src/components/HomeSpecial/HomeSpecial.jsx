@@ -1,5 +1,9 @@
+import { Link } from "react-router-dom";
+
+// import CSS
 import "./homeSpecial.css";
 
+// import AppData
 import { specialData } from "../../../appData";
 
 const HomeSpecial = () => {
@@ -7,11 +11,10 @@ const HomeSpecial = () => {
     <section className="homeSpecial">
       <div className="section_wrapper">
         <div className="section_header">
-          <h1 className="section_title">Legal Services</h1>
-          <h3 className="section_subtitle">
-            We have expertise in a diverse spectrum of practice areas
-          </h3>
+          <h3 className="section_header_subtitle">Our Practice Areas</h3>
+          <h1 className="section_header_title">Legal Services</h1>
         </div>
+
         <div className="special_cards">
           {specialData.map((card, index) => (
             <div key={index} className="card_item">
@@ -24,8 +27,10 @@ const HomeSpecial = () => {
           ))}
         </div>
 
-        <div className="homeSpecial_btn_wrapper">
-          <button>See all Services</button>
+        <div className="link_button">
+          <Link to="/specialisation">
+            See All <i class="fa-solid fa-arrow-right" />
+          </Link>
         </div>
       </div>
     </section>
