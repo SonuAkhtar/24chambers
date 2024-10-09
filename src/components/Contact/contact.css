@@ -1,0 +1,115 @@
+.contact_main {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  color: var(--main-blue);
+}
+
+.contact_main hr {
+  width: 100%;
+  border: 1px solid var(--main-gold);
+}
+
+.contact_top,
+.contact_bottom {
+  width: 100%;
+}
+
+.contact_main .contact_card_city {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--main-gold);
+  margin-bottom: 0.5rem;
+}
+
+.contact_main .contact_cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.contact_cards .contact_card_item {
+  min-width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.contact_card_item .contact_card_office {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.contact_card_item i {
+  margin-right: 0.5rem;
+  color: var(--main-gold);
+}
+
+.contact .section_header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact .section_header .section_header_subtitle {
+  position: relative;
+  color: var(--main-blue);
+  font-weight: 300;
+  font-size: 1.25rem;
+  text-align: center;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.contact .section_header_subtitle::before,
+.contact .section_header_subtitle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--main-blue);
+  height: 1px;
+  width: 100px;
+}
+
+.contact .section_header_subtitle::before {
+  left: -7rem;
+}
+
+.contact .section_header_subtitle::after {
+  right: -7rem;
+}
+
+/* Responsive UI for smaller screen */
+@media screen and (max-width: 600px) {
+  .contact_main {
+    width: 100%;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .contact_cards .card_divider {
+    display: none;
+  }
+
+  .contact_cards .contact_card_item {
+    font-size: 0.9rem;
+  }
+
+  .contact_main .contact_card_city {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .contact_card_item .contact_card_office {
+    font-size: 1.1rem;
+  }
+}
