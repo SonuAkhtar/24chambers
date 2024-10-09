@@ -1,8 +1,107 @@
 section.hero {
-  background-image: url("../../assets/hero/hero2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 90vh;
+  position: relative;
+  height: 80vh;
+  width: 100%;
   overflow: hidden;
+  padding: 0;
+  box-shadow: none;
+}
+
+section.hero .hero_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+section.hero .hero_bg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section_wrapper.hero {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--main-gold);
+  z-index: 999;
+}
+
+.hero .hero_subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.hero .hero_title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.hero .hero_info {
+  width: 40%;
+}
+
+.hero .hero_buttons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero .hero_buttons button {
+  padding: 0.75rem 1rem;
+  min-width: 150px;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 1px 2px var(--main-gold);
+}
+
+.hero_buttons button:first-child {
+  background-color: var(--main-blue);
+  color: var(--mai);
+}
+
+/* Responsive UI for smaller screen */
+@media screen and (max-width: 600px) {
+  section.hero {
+    height: 70vh;
+  }
+
+  section.hero .hero_bg {
+    filter: blur(2px);
+  }
+
+  .section_wrapper.hero {
+    gap: 0.5rem;
+  }
+
+  .hero .hero_subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero .hero_title {
+    font-size: 2rem;
+  }
+
+  .hero .hero_info {
+    width: 90%;
+  }
+
+  .hero .hero_buttons {
+    width: 100%;
+    margin-top: 4rem;
+  }
 }
