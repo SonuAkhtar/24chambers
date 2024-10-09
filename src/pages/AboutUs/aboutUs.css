@@ -78,7 +78,7 @@
   object-fit: cover;
 }
 
-.section_image_info {
+.aboutUs_wrapper .section_image_info {
   font-size: 1.1rem;
   width: 50%;
   display: flex;
@@ -93,14 +93,16 @@
   flex-direction: column;
   gap: 2rem;
   margin-top: 4rem;
+  background-color: var(--main-blue);
+  color: #fafafa;
 }
 
-.team hr {
+.aboutUs_wrapper .team hr {
   width: 100%;
   border: 1px solid var(--main-gold);
 }
 
-.team .team_title {
+.aboutUs_wrapper .team .team_title {
   position: absolute;
   top: -3.5rem;
   left: 1rem;
@@ -112,7 +114,7 @@
   text-align: left;
 }
 
-.team .team_detail {
+.aboutUs_wrapper .team .team_detail {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -120,7 +122,7 @@
   font-weight: 300;
 }
 
-.team .team_left {
+.aboutUs_wrapper .team .team_left {
   width: 300px;
   height: 350px;
   border-radius: 0.5rem;
@@ -128,13 +130,13 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.team_left_img img {
+.aboutUs_wrapper .team_left_img img {
   width: 100%;
   height: 250px;
   object-fit: cover;
 }
 
-.team_left_info {
+.aboutUs_wrapper .team_left_info {
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -145,7 +147,7 @@
   color: var(--main-blue);
 }
 
-.team_left_name {
+.aboutUs_wrapper .team_left_name {
   font-weight: 500;
 }
 
@@ -153,28 +155,28 @@
   font-weight: 500;
 }
 
-.team .team_right {
+.aboutUs_wrapper .team .team_right {
   width: 60%;
 }
 
-.team_right_name {
+.aboutUs_wrapper .team_right_name {
   font-weight: 500;
 }
 
-.team_right_partner {
+.aboutUs_wrapper .team_right_partner {
   padding: 1rem 0;
 }
 
-.team_right_info {
+.aboutUs_wrapper .team_right_info {
   margin-bottom: 1rem;
 }
 
-.team_right_membership {
+.aboutUs_wrapper .team_right_membership {
   padding-left: 2rem;
 }
 
 /* Counsels section */
-section.counsels {
+.aboutUs_wrapper section.counsels {
   margin: 5rem 0 2rem 0;
   position: relative;
   background-color: #fafafa;
@@ -182,7 +184,7 @@ section.counsels {
   border-radius: 0.5rem;
 }
 
-.counsels .counsels_title {
+.aboutUs_wrapper .counsels .counsels_title {
   position: absolute;
   top: -3.5rem;
   left: 1rem;
@@ -194,13 +196,13 @@ section.counsels {
   text-align: left;
 }
 
-.counsels_cards {
+.aboutUs_wrapper .counsels_cards {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.counsels_cards .card_item {
+.aboutUs_wrapper .counsels_cards .card_item {
   width: 250px;
   height: 100%;
   min-height: 300px;
@@ -209,7 +211,7 @@ section.counsels {
   overflow: hidden;
 }
 
-.counsel_card_info {
+.aboutUs_wrapper .counsel_card_info {
   margin: 0.5rem auto;
   padding: 0.5rem;
   width: 95%;
@@ -225,22 +227,22 @@ section.counsels {
   font-weight: 300;
 }
 
-.card_item .counsel_img {
+.aboutUs_wrapper .card_item .counsel_img {
   height: 200px;
   overflow: hidden;
 }
 
-.card_item .counsel_img img {
+.aboutUs_wrapper .card_item .counsel_img img {
   width: 100%;
   object-fit: cover;
 }
 
-.card_item .counsel_expertise {
+.aboutUs_wrapper .card_item .counsel_expertise {
   font-size: 0.8rem;
   text-align: center;
 }
 
-.card_item .counsel_expertise span {
+.aboutUs_wrapper .card_item .counsel_expertise span {
   font-weight: 500;
   font-size: 0.9rem;
   color: var(--main-gold);
@@ -285,7 +287,7 @@ section.counsels {
     border-radius: 0.25rem;
   }
 
-  .section_image_info {
+  .aboutUs_wrapper .section_image_info {
     font-size: 0.9rem;
     width: 100%;
   }
@@ -295,63 +297,63 @@ section.counsels {
     margin-top: 2rem;
   }
 
-  .team .team_title {
+  .aboutUs_wrapper .team .team_title {
     top: -2rem;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
   }
 
-  .team .team_detail {
+  .aboutUs_wrapper .team .team_detail {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .team .team_left {
+  .aboutUs_wrapper .team .team_left {
     width: 100%;
     border-radius: 0.25rem;
   }
 
-  .team .team_right {
+  .aboutUs_wrapper .team .team_right {
     width: 100%;
     font-size: 0.9rem;
   }
 
-  .team_right_partner {
+  .aboutUs_wrapper .team_right_partner {
     padding: 0.5rem 0;
     font-style: italic;
   }
 
-  .team_right_info {
+  .aboutUs_wrapper .team_right_info {
     font-size: 0.9rem;
     line-height: 1.25rem;
   }
 
-  .team_right_membership {
+  .aboutUs_wrapper .team_right_membership {
     padding-left: 1.5rem;
   }
 
   /* Counsels section */
-  .counsels {
+  .aboutUs_wrapper .counsels {
     margin: 4rem 0 1rem 0;
   }
 
-  .counsels .counsels_title {
+  .aboutUs_wrapper .counsels .counsels_title {
     top: -2rem;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
   }
 
-  .counsels_cards {
+  .aboutUs_wrapper .counsels_cards {
     justify-content: center;
     gap: 1rem;
   }
 
-  .counsels_cards .card_item {
+  .aboutUs_wrapper .counsels_cards .card_item {
     min-height: 250px;
     border-radius: 0.25rem;
   }
 
-  .counsel_card_info {
+  .aboutUs_wrapper .counsel_card_info {
     margin: 0.25rem auto;
     width: 100%;
     gap: 0.25rem;

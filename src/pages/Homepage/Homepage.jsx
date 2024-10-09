@@ -1,7 +1,10 @@
 import React from "react";
 
+// import CSS
+import "./homepage.css";
+
 import Hero from "../../components/Hero/Hero";
-import AboutUs from "../../components/AboutUs/AboutUs";
+import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
@@ -17,7 +20,7 @@ const Homepage = () => {
       {/* <Disclaimer /> */}
       <Header />
       <Hero />
-      <AboutUs />
+      <About />
       <HomeSpecial />
       <HomeBlog />
       <Query />

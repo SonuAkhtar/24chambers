@@ -1,0 +1,4 @@
+.homepage_container section:nth-child(even) {
+  background-color: var(--main-blue);
+  color: #fafafa;
+}
