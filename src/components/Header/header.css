@@ -64,6 +64,7 @@
 }
 
 .header_wrapper .header_link_items a {
+  position: relative;
   color: var(--main-blue);
   font-size: 0.9rem;
   cursor: pointer;
@@ -171,9 +172,21 @@
   }
 
   .header_wrapper .header_link_items a {
+    position: relative;
     color: var(--main-blue);
     font-size: 1.25rem;
     cursor: pointer;
+  }
+
+  .header_wrapper .header_link_items a::before {
+    content: "";
+    position: absolute;
+    top: 0.5rem;
+    left: 1.5rem;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: var(--main-blue);
   }
 
   .header_button {

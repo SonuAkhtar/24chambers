@@ -31,7 +31,7 @@ section.hero .hero_bg img {
   justify-content: center;
   gap: 1rem;
   color: var(--main-gold);
-  z-index: 999;
+  z-index: 99;
 }
 
 .hero .hero_subtitle {
