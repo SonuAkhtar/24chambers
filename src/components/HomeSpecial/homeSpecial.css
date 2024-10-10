@@ -1,37 +1,3 @@
-.homeSpecial .section_header {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.homeSpecial .section_header .section_header_subtitle {
-  position: relative;
-  color: white;
-  font-weight: 300;
-  font-size: 1.25rem;
-  text-align: center;
-  width: max-content;
-  margin: 0 auto;
-}
-
-.homeSpecial .section_header_subtitle::before,
-.homeSpecial .section_header_subtitle::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: white;
-  height: 1px;
-  width: 100px;
-}
-
-.homeSpecial .section_header_subtitle::before {
-  left: -7rem;
-}
-
-.homeSpecial .section_header_subtitle::after {
-  right: -7rem;
-}
-
 .homeSpecial .special_cards {
   display: flex;
   flex-wrap: wrap;
@@ -41,8 +7,8 @@
 
 .homeSpecial .card_item {
   position: relative;
-  background-color: #f5f5f5;
-  color: var(--main-blue);
+  background: var(--main-blue-light);
+  color: #f5f5f5;
   padding: 1rem;
   border-radius: 0.5rem;
   width: 100%;
@@ -52,15 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-
-.homeSpecial .card_item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 5px #ffc87c;
-  background: radial-gradient(circle at 10% 20%, #ffc87c 0%, #fcfb79 90%);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
 }
 
 .card_header {
@@ -71,7 +29,7 @@
 .homeSpecial .card_item h2 {
   font-size: 4rem;
   line-height: 3rem;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .homeSpecial .card_item h3 {
@@ -79,15 +37,12 @@
   opacity: 0.8;
   text-align: right;
   width: 60%;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
-.homeSpecial .card_item .card_info {
-  transform: translateY(100px);
-  transition: all 0.5s ease-in-out;
-}
-
-.homeSpecial .card_item:hover .card_info {
-  transform: translateY(0px);
+.homeSpecial .card_info {
+  font-weight: 300;
 }
 
 .homeSpecial .link_button {
@@ -124,9 +79,8 @@
 
   .homeSpecial .card_item {
     border-radius: 0.25rem;
-    width: 90%;
+    width: 100%;
     min-height: 120px;
-    background: radial-gradient(circle at 10% 20%, #ffc87c 0%, #fcfb79 90%);
   }
 
   .homeSpecial .card_item h2 {
@@ -139,7 +93,6 @@
   }
 
   .homeSpecial .card_item .card_info {
-    transform: translateY(0px);
     font-size: 0.9rem;
     text-align: center;
   }

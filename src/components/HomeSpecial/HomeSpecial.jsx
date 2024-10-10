@@ -6,14 +6,18 @@ import "./homeSpecial.css";
 // import AppData
 import { specialData } from "../../../appData";
 
+// import Components
+import SectionHeader from "../SectionHeader/SectionHeader";
+
 const HomeSpecial = () => {
   return (
     <section className="homeSpecial">
       <div className="section_wrapper">
-        <div className="section_header">
-          <h3 className="section_header_subtitle">Our Practice Areas</h3>
-          <h1 className="section_header_title">Legal Services</h1>
-        </div>
+        <SectionHeader
+          title="Legal Services"
+          subtitle="Our Practice Areas"
+          color="light"
+        />
 
         <div className="special_cards">
           {specialData.map((card, index) => (
@@ -29,7 +33,7 @@ const HomeSpecial = () => {
 
         <div className="link_button">
           <Link to="/specialisation">
-            See All <i class="fa-solid fa-arrow-right" />
+            See All <i className="fa-solid fa-arrow-right" />
           </Link>
         </div>
       </div>

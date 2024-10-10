@@ -1,36 +1,62 @@
-.reach {
-  margin-bottom: 2rem;
-}
-.reach .section_header {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.reach .section_header .section_header_subtitle {
-  position: relative;
-  color: #fafafa;
-  font-weight: 300;
-  font-size: 1.25rem;
-  text-align: center;
-  width: max-content;
-  margin: 0 auto;
-}
-
-.reach .section_header_subtitle::before,
-.reach .section_header_subtitle::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.homepage_container section.reach {
+  margin-bottom: 1rem;
   background-color: #fafafa;
-  height: 1px;
-  width: 100px;
 }
 
-.reach .section_header_subtitle::before {
-  left: -7rem;
+.reach .reach_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--main-blue);
 }
 
-.reach .section_header_subtitle::after {
-  right: -7rem;
+.reach_main .address {
+  font-weight: 400;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.reach_main .map {
+  position: relative;
+  height: 50vh;
+  width: 60%;
+}
+
+.reach_main .map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive UI for smaller screen */
+@media screen and (max-width: 600px) {
+  .homepage_container section.reach {
+    margin: 0;
+  }
+
+  .reach .reach_main {
+    padding: 0;
+  }
+
+  .reach_main .address {
+    font-size: 1rem;
+    gap: 0.5rem;
+  }
+
+  .reach_main .map {
+    width: 100%;
+  }
+
+  .reach .section_header {
+    margin-bottom: 1rem;
+  }
 }

@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 // import CSS
 import "./about.css";
 
-// import images
+// import Images
 import aboutImage from "/Images/assets/about/Picture1.jpg";
+
+// import Components
+import SectionHeader from "../SectionHeader/SectionHeader";
 
 const About = () => {
   return (
     <section className="about">
       <div className="section_wrapper about">
-        <div className="section_header">
-          <h3 className="section_header_subtitle">who are we</h3>
-          <h1 className="section_header_title">About us</h1>
-        </div>
+        <SectionHeader title="Who are We" subtitle="About Us" />
 
         <main className="about_main">
           <div className="about_left">
@@ -45,7 +45,7 @@ const About = () => {
 
         <div className="link_button">
           <Link to="/about-us">
-            Know More <i class="fa-solid fa-arrow-right" />
+            Know More <i className="fa-solid fa-arrow-right" />
           </Link>
         </div>
       </div>

@@ -1,33 +1,105 @@
-.query .section_header {
-  margin-bottom: 2rem;
-  text-align: center;
+section.query {
+  padding: 2rem;
 }
 
-.query .section_header .section_header_subtitle {
-  position: relative;
-  color: #fafafa;
-  font-weight: 300;
-  font-size: 1.25rem;
-  text-align: center;
-  width: max-content;
-  margin: 0 auto;
+.query .query_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.query .section_header_subtitle::before,
-.query .section_header_subtitle::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.query .query_main form {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
   background-color: #fafafa;
-  height: 1px;
-  width: 100px;
+  padding: 2rem;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  border-radius: 0.5rem;
 }
 
-.query .section_header_subtitle::before {
-  left: -7rem;
+.query_main .name_contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-.query .section_header_subtitle::after {
-  right: -7rem;
+.query_main input,
+.query_main textarea {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border: 1px solid var(--main-blue);
+  border-radius: 0.25rem;
+}
+
+.query_main input {
+  width: 45%;
+}
+
+.query_main textarea {
+  height: 100px;
+  width: 100%;
+}
+
+.query_main form button {
+  border: none;
+  outline: none;
+  width: 200px;
+  padding: 1rem;
+  margin: 1rem auto 0 auto;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--main-blue);
+  color: #fafafa;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.query_main form button:hover {
+  background-color: var(--main-blue);
+  color: #fafafa;
+}
+
+.query .query_note {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.query .query_note span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Responsive UI for smaller screen */
+@media screen and (max-width: 600px) {
+  section.query {
+    padding: 1rem;
+  }
+
+  .query .query_main {
+    padding: 0;
+  }
+
+  .query .query_main form {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .query_main .name_contact {
+    flex-direction: column;
+  }
+
+  .query_main input {
+    width: 100%;
+  }
 }
