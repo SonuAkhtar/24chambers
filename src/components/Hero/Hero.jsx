@@ -1,4 +1,5 @@
 // import CSS
+import AnchorButton from "../AnchorButton/AnchorButton";
 import "./hero.css";
 
 // import images
@@ -18,9 +19,10 @@ const Hero = () => {
           Experience unwavering commitment and expert guidance at our law firm,
           where your success is our priority. Trust us to protect your future.
         </p>
+
         <div className="hero_buttons">
-          <button>Reach Us</button>
-          <button>Send Query</button>
+          <AnchorButton text="Reach Us" id="#reach" color="dark" />
+          <AnchorButton text="Send Query" id="#query" />
         </div>
       </div>
     </section>

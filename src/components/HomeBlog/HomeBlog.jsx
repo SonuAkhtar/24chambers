@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 // import CSS
 import "./homeBlog.css";
 
@@ -8,21 +6,17 @@ import heroBg from "/Images/assets/hero/hero1.jpg";
 
 // import Components
 import SectionHeader from "../SectionHeader/SectionHeader";
+import LinkButton from "../LinkButton/LinkButton";
 
 const HomeBlog = () => {
   const allBlogs = Array(4).fill(0);
 
   return (
-    <section className="homeBlog">
-      <div className="section_wrapper homeBlog">
-        {/* <div className="section_header">
-          <h3 className="section_header_subtitle">What We Publish</h3>
-          <h1 className="section_header_title">Blogs</h1>
-        </div> */}
-
+    <section className="homeBlog_section" id="homeBlog">
+      <main>
         <SectionHeader title="Blogs" subtitle="What We Publish" />
 
-        <main className="homeBlog_main">
+        <div className="blogCards_wrapper">
           {allBlogs.map((blog, index) => (
             <div key={index} className="blog_card">
               <img src={heroBg} alt="blog image" />
@@ -37,14 +31,10 @@ const HomeBlog = () => {
               </div>
             </div>
           ))}
-        </main>
-
-        <div className="link_button">
-          <Link to="/blogs">
-            Read More <i className="fa-solid fa-arrow-right" />
-          </Link>
         </div>
-      </div>
+
+        <LinkButton link="/blogs" text="Read More" color="dark" />
+      </main>
     </section>
   );
 };

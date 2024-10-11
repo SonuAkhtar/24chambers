@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 // import CSS
 import "./homeSpecial.css";
 
@@ -8,18 +6,19 @@ import { specialData } from "../../../appData";
 
 // import Components
 import SectionHeader from "../SectionHeader/SectionHeader";
+import LinkButton from "../LinkButton/LinkButton";
 
 const HomeSpecial = () => {
   return (
-    <section className="homeSpecial">
-      <div className="section_wrapper">
+    <section className="homeSpecial_section" id="homeSpecial">
+      <main>
         <SectionHeader
           title="Legal Services"
           subtitle="Our Practice Areas"
           color="light"
         />
 
-        <div className="special_cards">
+        <div className="specialCards_wrapper">
           {specialData.map((card, index) => (
             <div key={index} className="card_item">
               <div className="card_header">
@@ -31,12 +30,8 @@ const HomeSpecial = () => {
           ))}
         </div>
 
-        <div className="link_button">
-          <Link to="/specialisation">
-            See All <i className="fa-solid fa-arrow-right" />
-          </Link>
-        </div>
-      </div>
+        <LinkButton link="/specialisation" text="See All" />
+      </main>
     </section>
   );
 };

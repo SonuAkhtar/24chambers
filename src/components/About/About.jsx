@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 // import CSS
 import "./about.css";
 
@@ -8,14 +6,16 @@ import aboutImage from "/Images/assets/about/Picture1.jpg";
 
 // import Components
 import SectionHeader from "../SectionHeader/SectionHeader";
+import LinkButton from "../LinkButton/LinkButton";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="about">
-      <div className="section_wrapper about">
+    <section className="about_section" id="homeAbout">
+      <main>
         <SectionHeader title="Who are We" subtitle="About Us" />
 
-        <main className="about_main">
+        <div className="about_wrapper">
           <div className="about_left">
             <img src={aboutImage} alt="about us image" />
           </div>
@@ -41,14 +41,10 @@ const About = () => {
 
             <div className="about_right_sign">24 Chambers</div>
           </div>
-        </main>
-
-        <div className="link_button">
-          <Link to="/about-us">
-            Know More <i className="fa-solid fa-arrow-right" />
-          </Link>
         </div>
-      </div>
+
+        <LinkButton link="/about-us" text="Know More" color="dark" />
+      </main>
     </section>
   );
 };

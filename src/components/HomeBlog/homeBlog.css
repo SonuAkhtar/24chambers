@@ -1,16 +1,15 @@
-.homeBlog_main {
+.homeBlog_section .blogCards_wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   background-color: #dfdfdf;
   border-radius: 0.5rem;
-  padding: 2rem 1rem;
-  margin-top: 2rem;
+  padding: 1rem;
   gap: 1rem;
 }
 
-.homeBlog_main .blog_card {
+.homeBlog_section .blog_card {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -22,33 +21,33 @@
   border-radius: 0.5rem;
 }
 
-.homeBlog_main .blog_card img {
+.homeBlog_section .blog_card img {
   height: 150px;
   width: 100%;
   object-fit: cover;
   border-radius: 0.5rem;
 }
 
-.homeBlog_main .blog_card .blog_title {
+.homeBlog_section .blog_card .blog_title {
   font-weight: 400;
   font-size: 0.9rem;
 }
 
-.homeBlog_main .blog_card .blog_time_read {
+.homeBlog_section .blog_card .blog_time_read {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 0.9rem;
 }
 
-.homeBlog_main .blog_card .blog_time {
+.homeBlog_section .blog_card .blog_time {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.25rem;
 }
 
-.homeBlog_main .blog_card button {
+.homeBlog_section .blog_card button {
   padding: 0.3rem 0.5rem;
   border: none;
   outline: none;
@@ -60,46 +59,18 @@
   border-radius: 0.25rem;
 }
 
-section.homeBlog .link_button {
-  margin-top: 5%;
-  text-align: center;
-  cursor: pointer;
-}
-
-section.homeBlog .link_button a {
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 300;
-  padding: 0.75rem 2rem;
-  background-color: var(--main-blue);
-  color: #fafafa;
-  cursor: pointer;
-  border-radius: 0.25rem;
-}
-
-section.homeBlog .link_button a i {
-  margin-left: 0.25rem;
-  transition: all 0.3s ease-in-out;
-}
-
-section.homeBlog .link_button a:hover i {
-  transform: translateX(10px);
-}
-
 /* Responsive UI for smaller screen */
 @media screen and (max-width: 600px) {
-  .homeBlog_main {
-    padding: 1rem;
-    margin-top: 1rem;
+  .homeBlog_section .blogCards_wrapper {
     justify-content: center;
   }
 
-  .homeBlog_main .blog_card {
-    width: 80%;
-    height: 250px;
+  .homeBlog_section .blog_card {
+    width: 100%;
+    height: max-content;
   }
 
-  section.homeBlog .link_button {
-    margin-top: 10%;
+  .homeBlog_section .blog_card img {
+    height: 120px;
   }
 }

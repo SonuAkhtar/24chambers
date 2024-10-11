@@ -6,11 +6,11 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 
 const Reach = () => {
   return (
-    <section className="reach">
-      <div className="section_wrapper reach">
+    <section className="reach_section" id="reach">
+      <main>
         <SectionHeader title="Reach Us" subtitle="Meet in-Person" />
 
-        <main className="reach_main">
+        <div className="reach_wrapper">
           <div className="address">
             <i className="fa-solid fa-location-dot" />
             <span>
@@ -25,10 +25,10 @@ const Reach = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            />
           </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </section>
   );
 };

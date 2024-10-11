@@ -1,26 +1,26 @@
 .header_container {
-  position: relative;
   width: 100%;
+  padding: 0 1rem;
   background-color: var(--main-blue);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 1rem;
 }
 
 .header_wrapper {
   height: 100%;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 1.5rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header_wrapper img.header_logo {
-  width: 5rem;
+.header_wrapper .fa-house {
+  font-size: 2rem;
+  color: var(--off-white);
   cursor: pointer;
 }
 
@@ -98,24 +98,6 @@
   opacity: 1;
 }
 
-.header_wrapper .header_button button {
-  border: none;
-  outline: none;
-  padding: 0.5rem 1.25rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  border: 1px solid transparent;
-  transition: all 0.3s ease-in-out;
-}
-
-.header_wrapper .header_button button:hover {
-  background-color: var(--main-blue);
-  border-color: var(--main-gold);
-  color: var(--main-gold);
-}
-
 /* Responsive UI for smaller screen */
 @media screen and (max-width: 600px) {
   .header_container {
@@ -138,13 +120,13 @@
     transform: translateX(100vw);
   }
 
-  .header_wrapper .header_links.active {
+  .header_container.active .header_links {
     transform: translateX(0);
   }
 
   .header_wrapper .header_links a {
     color: var(--main-blue);
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 500;
     text-align: left;
     width: 100%;
@@ -189,30 +171,17 @@
     background-color: var(--main-blue);
   }
 
-  .header_button {
+  .header_container .anchor_button {
     position: absolute;
-    top: 80vh;
-    left: 0;
-    width: 100%;
+    top: 70vh;
+    left: 150vw;
+    width: 60%;
     z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease-in-out;
-    transform: translateX(100vw);
   }
 
-  .header_button.active {
+  .header_container.active .anchor_button {
     transition-delay: 0.2s;
-    transform: translateX(0);
-  }
-
-  .header_wrapper .header_button button {
-    padding: 1rem;
-    font-size: 1.5rem;
-    width: 70%;
-    background-color: var(--main-blue);
-    border-color: var(--main-gold);
-    color: var(--main-gold);
+    transform: translateX(-50%);
+    left: 50%;
   }
 }

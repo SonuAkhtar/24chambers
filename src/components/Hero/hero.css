@@ -53,27 +53,8 @@ section.hero .hero_bg img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
-
-.hero .hero_buttons button {
-  padding: 0.75rem 1rem;
-  min-width: 150px;
-  border: none;
-  outline: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  font-size: 1rem;
-  font-weight: 500;
-  box-shadow: 0 1px 2px var(--main-gold);
-}
-
-.hero_buttons button:first-child {
-  background-color: var(--main-blue);
-  color: var(--mai);
-}
-
 /* Responsive UI for smaller screen */
 @media screen and (max-width: 600px) {
   section.hero {

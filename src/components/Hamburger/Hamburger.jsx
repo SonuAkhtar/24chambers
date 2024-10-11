@@ -1,11 +1,11 @@
 // import css
 import "./hamburger.css";
 
-const Hamburger = ({ burgerClick, setBurgerClick }) => {
+const Hamburger = ({ mobileMenu, setMobileMenu }) => {
   return (
     <div
-      className={`hamburger_wrapper ${burgerClick && "active"}`}
-      onClick={() => setBurgerClick(!burgerClick)}
+      className={`hamburger_wrapper ${mobileMenu && "active"}`}
+      onClick={() => setMobileMenu(!mobileMenu)}
     >
       <div className="ham_icon">
         <span></span>

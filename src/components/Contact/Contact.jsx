@@ -6,11 +6,11 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 
 const Contact = () => {
   return (
-    <section className="contact">
-      <div className="section_wrapper contact">
+    <section className="contact_section" id="contact">
+      <main>
         <SectionHeader title="Contact Us" subtitle="Get in Touch" />
 
-        <main className="contact_main">
+        <div className="contact_wrapper">
           <div className="contact_top">
             <div className="contact_card_city">New Delhi</div>
 
@@ -83,8 +83,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </section>
   );
 };

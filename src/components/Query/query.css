@@ -1,14 +1,4 @@
-section.query {
-  padding: 2rem;
-}
-
-.query .query_main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.query .query_main form {
+.query_section form {
   width: 60%;
   display: flex;
   flex-wrap: wrap;
@@ -21,7 +11,7 @@ section.query {
   border-radius: 0.5rem;
 }
 
-.query_main .name_contact {
+.query_section form .name_contact {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -29,8 +19,8 @@ section.query {
   gap: 1rem;
 }
 
-.query_main input,
-.query_main textarea {
+.query_section form input,
+.query_section form textarea {
   padding: 0.5rem;
   border: none;
   outline: none;
@@ -38,16 +28,16 @@ section.query {
   border-radius: 0.25rem;
 }
 
-.query_main input {
+.query_section form input {
   width: 45%;
 }
 
-.query_main textarea {
+.query_section form textarea {
   height: 100px;
   width: 100%;
 }
 
-.query_main form button {
+.query_section form button {
   border: none;
   outline: none;
   width: 200px;
@@ -62,44 +52,38 @@ section.query {
   transition: all 0.5s ease-in-out;
 }
 
-.query_main form button:hover {
+.query_section form button:hover {
   background-color: var(--main-blue);
   color: #fafafa;
 }
 
-.query .query_note {
-  margin-top: 1rem;
+.query_section .query_note {
   text-align: center;
   font-size: 0.9rem;
   font-weight: 300;
 }
 
-.query .query_note span {
+.query_section .query_note span {
   font-size: 1rem;
   font-weight: 400;
 }
 
 /* Responsive UI for smaller screen */
 @media screen and (max-width: 600px) {
-  section.query {
-    padding: 1rem;
-  }
-
-  .query .query_main {
-    padding: 0;
-  }
-
-  .query .query_main form {
+  .query_section form {
     width: 100%;
     padding: 1rem;
-    margin: 1rem 0;
   }
 
-  .query_main .name_contact {
+  .query_section form input {
+    width: 100%;
+  }
+
+  .query_section .name_contact {
     flex-direction: column;
   }
 
-  .query_main input {
+  .query_section input {
     width: 100%;
   }
 }

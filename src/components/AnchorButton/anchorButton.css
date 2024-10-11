@@ -1,0 +1,40 @@
+.anchor_button {
+  border: none;
+  outline: none;
+  background-color: var(--off-white);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 1px var(--main-gold);
+  transition: all 0.3s ease-in-out;
+}
+
+.anchor_button a {
+  color: var(--main-blue);
+}
+
+.anchor_button.dark {
+  background-color: var(--main-blue);
+}
+
+.anchor_button.dark a {
+  color: var(--off-white);
+}
+
+.anchor_button:hover {
+  background-color: var(--main-blue);
+}
+
+.anchor_button:hover a {
+  color: var(--main-gold);
+}
+
+/* Responsive UI for smaller screen */
+@media screen and (max-width: 600px) {
+  .anchor_button {
+    padding: 0.75rem 2rem;
+  }
+}
