@@ -17,6 +17,7 @@
   font-weight: 300;
   font-size: 1.25rem;
   line-height: 1.25rem;
+  display: none;
 }
 
 .section_header_subtitle.light {

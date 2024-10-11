@@ -3,6 +3,7 @@ import React from "react";
 // import CSS
 import "./homepage.css";
 
+import Hero1 from "../../components/Hero1/Hero1";
 import Hero from "../../components/Hero/Hero";
 import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
@@ -19,13 +20,15 @@ const Homepage = () => {
     <div className="homepage_container">
       {/* <Disclaimer /> */}
       <Header />
-      <Hero />
-      <About />
+      <Hero1 />
+      {/* <Hero /> */}
+      {/* <About />
       <HomeSpecial />
-      <HomeBlog />
+      <HomeBlog /> */}
       <Query />
       <Contact />
-      <Reach />
+      <hr />
+      {/* <Reach /> */}
       <Footer />
     </div>
   );

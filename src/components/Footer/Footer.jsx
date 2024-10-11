@@ -37,13 +37,7 @@ const Footer = () => {
         <div className="footer_bottom">
           <div className="socials">
             <span>
-              <i className="fa-brands fa-facebook-f" />
-            </span>
-            <span>
               <i className="fa-brands fa-linkedin-in" />
-            </span>
-            <span>
-              <i className="fa-brands fa-x-twitter" />
             </span>
           </div>
           <div className="footer_address">

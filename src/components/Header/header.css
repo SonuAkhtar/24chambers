@@ -1,4 +1,6 @@
 .header_container {
+  position: fixed;
+  top: 0;
   width: 100%;
   padding: 0 1rem;
   background-color: var(--main-blue);
@@ -6,6 +8,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 99;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .header_wrapper {
@@ -14,8 +18,10 @@
   max-width: 1400px;
   padding: 1.5rem 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .header_wrapper .fa-house {
@@ -28,7 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .header_wrapper .header_links span {
@@ -126,7 +132,7 @@
 
   .header_wrapper .header_links a {
     color: var(--main-blue);
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-align: left;
     width: 100%;
@@ -145,18 +151,19 @@
 
   .header_wrapper .header_link_items {
     position: relative;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
     padding: 0.5rem;
     opacity: 1;
     box-shadow: none;
-    background-color: transparent;
-    top: 0;
-    width: 100%;
   }
 
   .header_wrapper .header_link_items a {
     position: relative;
     color: var(--main-blue);
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
     cursor: pointer;
   }
 
@@ -173,7 +180,7 @@
 
   .header_container .anchor_button {
     position: absolute;
-    top: 70vh;
+    top: 65vh;
     left: 150vw;
     width: 60%;
     z-index: 999;
@@ -183,5 +190,6 @@
     transition-delay: 0.2s;
     transform: translateX(-50%);
     left: 50%;
+    font-size: 1.2rem;
   }
 }

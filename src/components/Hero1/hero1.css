@@ -1,0 +1,14 @@
+.hero1_section {
+  position: relative;
+  background-image: url("../../../public/Images/assets/23chambers_logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--main-blue);
+  height: 80vh;
+}
+/* Responsive UI for smaller screen */
+@media screen and (max-width: 600px) {
+  .hero1_section {
+    height: 70vh;
+  }
+}

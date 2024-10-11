@@ -26,6 +26,7 @@
 
 .anchor_button:hover {
   background-color: var(--main-blue);
+  transform: translateY(-3px);
 }
 
 .anchor_button:hover a {

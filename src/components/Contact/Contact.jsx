@@ -18,19 +18,26 @@ const Contact = () => {
               <div className="contact_card_item">
                 <div className="contact_card_office">Head Office</div>
                 <div className="contact_card_address">
-                  <i className="fa-solid fa-location-dot" />
-                  <span>
+                  <a
+                    href="http://maps.google.com/?q=24 Jangpura ‘A’, First Floor, Mathura Road, New Delhi –
+                    110014"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-location-dot" />
                     24 Jangpura ‘A’, First Floor, Mathura Road, New Delhi –
-                    110014.
-                  </span>
+                    110014
+                  </a>
                 </div>
                 <div className="contact_card_phone">
-                  <i className="fa-solid fa-phone" />
-                  <span>+91 9910597272</span>
+                  <a href="tel:+919910597272">
+                    <i className="fa-solid fa-phone" /> +91 9910597272
+                  </a>
                 </div>
                 <div className="contact_card_email">
-                  <i className="fa-solid fa-envelope" />
-                  <span>office@24chambers.in</span>
+                  <a href="mailto:office@24chambers.in">
+                    <i className="fa-solid fa-envelope" />
+                    office@24chambers.in
+                  </a>
                 </div>
               </div>
 
@@ -39,19 +46,27 @@ const Contact = () => {
               <div className="contact_card_item">
                 <div className="contact_card_office">Chamber</div>
                 <div className="contact_card_address">
-                  <i className="fa-solid fa-location-dot" />
-                  <span>
+                  <a
+                    href="http://maps.google.com/?q=217, Block ‘S’, High Court of Delhi, Sher Shar Road, New
+                    Delhi – 110003"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-location-dot" />
                     217, Block ‘S’, High Court of Delhi, Sher Shar Road, New
-                    Delhi – 110003.
-                  </span>
+                    Delhi – 110003
+                  </a>
                 </div>
                 <div className="contact_card_phone">
-                  <i className="fa-solid fa-phone" />
-                  <span>+91 11-21410192</span>
+                  <a href="tel:+911121410192">
+                    <i className="fa-solid fa-phone" />
+                    +91 11-21410192
+                  </a>
                 </div>
                 <div className="contact_card_email">
-                  <i className="fa-solid fa-envelope" />
-                  <span>office@24chambers.in</span>
+                  <a href="mailto:office@24chambers.in">
+                    <i className="fa-solid fa-envelope" />
+                    office@24chambers.in
+                  </a>
                 </div>
               </div>
             </div>
@@ -66,19 +81,26 @@ const Contact = () => {
               <div className="contact_card_item">
                 <div className="contact_card_office">Jaipur</div>
                 <div className="contact_card_address">
-                  <i className="fa-solid fa-location-dot" />
-                  <span>
+                  <a
+                    href="http://maps.google.com/?q=House no -322 Ganesh Nagar Vistar Near Kardhani Kalwar Road,
+                    Jhotwara Jaipur -302012"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-location-dot" />
                     House no -322 Ganesh Nagar Vistar Near Kardhani Kalwar Road,
                     Jhotwara Jaipur -302012
-                  </span>
+                  </a>
                 </div>
                 <div className="contact_card_phone">
-                  <i className="fa-solid fa-phone" />
-                  <span>+91 9910597272</span>
+                  <a href="tel:+919910597272">
+                    <i className="fa-solid fa-phone" /> +91 9910597272
+                  </a>
                 </div>
                 <div className="contact_card_email">
-                  <i className="fa-solid fa-envelope" />
-                  <span>office@24chambers.in</span>
+                  <a href="mailto:office@24chambers.in">
+                    <i className="fa-solid fa-envelope" />
+                    office@24chambers.in
+                  </a>
                 </div>
               </div>
             </div>
