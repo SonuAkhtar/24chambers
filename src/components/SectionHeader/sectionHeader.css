@@ -51,7 +51,7 @@
 /* Responsive UI for smaller screen */
 @media screen and (max-width: 600px) {
   .section_header_title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 1.5rem;
   }
 

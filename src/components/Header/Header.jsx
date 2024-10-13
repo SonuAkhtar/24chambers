@@ -29,18 +29,16 @@ const Header = () => {
 
         <div className="header_links" onClick={handleLinksClick}>
           <span>
-            <Link to="/about-us">About Us </Link>
+            About Us
             <i className="fa-solid fa-chevron-right" />
-
             <div className="header_link_items">
-              <Link to="/about-us">The Firm & its Leadership</Link>
-              <Link to="/about-us">The Team</Link>
+              <Link to="/leadership">The Firm & its Leadership</Link>
+              <Link to="/team">The Team</Link>
             </div>
           </span>
           <span>
-            <Link to="/specialisation">Specialisation</Link>
+            Specialisation
             <i className="fa-solid fa-chevron-right" />
-
             <div className="header_link_items">
               <Link to="/about-us">Litigation</Link>
               <Link to="/about-us">Dispute Resolution</Link>

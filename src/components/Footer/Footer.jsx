@@ -37,7 +37,9 @@ const Footer = () => {
         <div className="footer_bottom">
           <div className="socials">
             <span>
-              <i className="fa-brands fa-linkedin-in" />
+              <a href="">
+                <i className="fa-brands fa-linkedin-in" />
+              </a>
             </span>
           </div>
           <div className="footer_address">
