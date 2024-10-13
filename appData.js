@@ -80,3 +80,24 @@ export const specialData = [
     info: "We solve cases related to sexual harassment of all types",
   },
 ];
+
+export const teamCounselData = [
+  {
+    id: 1,
+    name: "Ms Monica Bharadwaj",
+    image: "Images/assets/about/Picture6.png",
+    expertise: "Civil Laws, Employment Laws and Banking Laws",
+  },
+  {
+    id: 2,
+    name: "Mr Ashwin Romy",
+    image: "Images/assets/about/Picture7.png",
+    expertise: "Civil Laws and Service Law",
+  },
+  {
+    id: 3,
+    name: "Mr Kaustubh Shakkarwar",
+    image: "Images/assets/about/Picture8.png",
+    expertise: "IP, TMT, Data Protection and Taxation",
+  },
+];

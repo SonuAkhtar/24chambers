@@ -106,6 +106,59 @@
   width: max-content;
 }
 
+.counsel_section {
+  padding: 1rem;
+}
+
+.counsel_section .counsel_cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.counsel_cards .counsel_card_item {
+  position: relative;
+  width: 250px;
+  height: 100%;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.counsel_cards .counsel_img img {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--main-gold);
+}
+
+.counsel_cards .counsel_card_info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.counsel_cards .counsel_name {
+  text-align: center;
+}
+
+.counsel_cards .counsel_expertise span {
+  font-weight: 500;
+  color: var(--main-gold);
+}
+
 /* Responsive UI for smaller screen */
 @media screen and (max-width: 600px) {
   .team_section .team_cards {
@@ -114,5 +167,28 @@
 
   .team_section .team_card_item {
     width: 90%;
+  }
+
+  .team_section .team_card_info {
+    font-size: 0.9rem;
+  }
+
+  .team_section .team_card_details {
+    gap: 0.5rem;
+
+    font-size: 0.9rem;
+  }
+
+  .counsel_section .counsel_cards {
+    justify-content: center;
+  }
+
+  .counsel_cards .counsel_img img {
+    height: 25vh;
+    width: 25vh;
+  }
+
+  .counsel_cards .counsel_card_info {
+    font-size: 0.9rem;
   }
 }

@@ -3,12 +3,12 @@ import { useState } from "react";
 // import CSS
 import "./team.css";
 
+// import appData
+import { teamCounselData } from "../../../appData";
+
 // import Images
 import image4 from "/Images/assets/about/Picture4.png";
 import image5 from "/Images/assets/about/Picture5.png";
-import image6 from "/Images/assets/about/Picture6.png";
-import image7 from "/Images/assets/about/Picture7.png";
-import image8 from "/Images/assets/about/Picture8.png";
 
 // import components
 import Header from "../../components/Header/Header";
@@ -169,7 +169,26 @@ const Team = () => {
             )}
           </section>
 
-          <section className="counsel_section"></section>
+          <SectionHeader title="OF COUNSELS" />
+          <section className="counsel_section">
+            <div className="counsel_cards">
+              {teamCounselData.map((card) => (
+                <div key={card.id} className="counsel_card_item">
+                  <div className="counsel_img">
+                    <img src={card.image} alt="counsel image" />
+                  </div>
+
+                  <div className="counsel_card_info">
+                    <h4 className="counsel_name">{card.name}</h4>
+                    <div className="counsel_expertise">
+                      <span>Expertise: </span>
+                      {card.expertise}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
         </main>
       </div>
       <Footer />
