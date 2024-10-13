@@ -27,7 +27,6 @@ const Homepage = () => {
       <HomeBlog /> */}
       <Query />
       <Contact />
-      <hr />
       {/* <Reach /> */}
       <Footer />
     </div>

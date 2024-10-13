@@ -15,9 +15,11 @@
   padding: 2rem 1rem;
 }
 
-.footer_wrapper hr {
+.homepage_container .footer_wrapper hr {
+  width: 100%;
   margin: 1rem 0;
   border: 1px solid var(--main-gold);
+  margin: 0.5rem auto;
 }
 
 .footer_top {
