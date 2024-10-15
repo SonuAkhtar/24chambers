@@ -37,7 +37,7 @@ const Header = () => {
               <Link to="/team">The Team</Link>
             </div> */}
           </span>
-          <span className="link_seperator"></span>
+          <span className="link_separator"></span>
           <span>
             Specialisation
             <i class="fa-solid fa-caret-down" />
@@ -46,12 +46,17 @@ const Header = () => {
               <Link to="/about-us">Dispute Resolution</Link>
             </div>
           </span>
+          <span className="link_separator"></span>
+
           <span>
             <Link to="/blogs">Blog & Published Works</Link>
           </span>
+          <span className="link_separator"></span>
+
           <span>
             <a href="#reach">Contact Us</a>
           </span>
+          <span className="link_separator"></span>
 
           <AnchorButton text="Submit Your Query" id="#contact" />
         </div>
