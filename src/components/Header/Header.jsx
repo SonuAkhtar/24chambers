@@ -22,7 +22,7 @@ const Header = () => {
     <header className={`header_container ${mobileMenu ? "active" : ""}`}>
       <div className="header_wrapper">
         <Link to="/">
-          <i className="fa-solid fa-house" />
+          <img src={logoImage} alt="logo" />
         </Link>
 
         <Hamburger mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} />
