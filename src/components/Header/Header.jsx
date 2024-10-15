@@ -58,7 +58,7 @@ const Header = () => {
           </span>
           <span className="link_separator"></span>
 
-          <AnchorButton text="Submit Your Query" id="#contact" />
+          <AnchorButton text="Submit Your Query" id="#query" />
         </div>
       </div>
     </header>

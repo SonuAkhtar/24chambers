@@ -15,7 +15,16 @@ const Footer = () => {
             <img className="footer_logo" src={logoImage} alt="header logo" />
           </Link>
 
-          <div className="footer_links">
+          <div className="footer_address">
+            <span>Address: </span>24 Jangpura ‘A’, 1st Floor, Mathura Road, New
+            Delhi-110014
+          </div>
+
+          <a className="social" href="">
+            <i className="fa-brands fa-linkedin-in" />
+          </a>
+
+          {/* <div className="footer_links">
             <div className="footer_link_item">
               <h2>Specialisation</h2>
               <div className="links">
@@ -31,24 +40,13 @@ const Footer = () => {
                 <span>Team Members</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
-        <hr />
         <div className="footer_bottom">
-          <div className="socials">
-            <span>
-              <a href="">
-                <i className="fa-brands fa-linkedin-in" />
-              </a>
-            </span>
-          </div>
-          <div className="footer_address">
-            <span>Address: </span>24 Jangpura ‘A’, 1st Floor, Mathura Road, New
-            Delhi-110014
-          </div>
+          <div className="name">24 Chambers, 2024-2025</div>
 
           <div className="copyright">
-            24 Chambers | <span>&#169;</span> All rights reserved 2024
+            <span>&#169;</span> All Rights Reserved
           </div>
         </div>
       </div>
