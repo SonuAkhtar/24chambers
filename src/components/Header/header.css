@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
   background-color: var(--main-blue);
   color: #fff;
   z-index: 99;
@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .header_wrapper img {
@@ -47,6 +47,16 @@
   color: #fff;
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in-out;
+}
+
+.header_wrapper .anchor_button a {
+  color: var(--main-blue);
+  text-decoration: none;
+  border: none;
+}
+
+.header_wrapper .anchor_button:hover a {
+  color: var(--off-white);
 }
 
 .header_wrapper .header_link_items {
@@ -97,9 +107,9 @@
   border-color: #fff;
 }
 
-.header_wrapper .header_links span:hover i {
+/* .header_wrapper .header_links span:hover i {
   rotate: 90deg;
-}
+} */
 
 .header_wrapper .header_links span:hover .header_link_items {
   opacity: 1;

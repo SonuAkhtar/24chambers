@@ -29,16 +29,18 @@ const Header = () => {
 
         <div className="header_links" onClick={handleLinksClick}>
           <span>
-            About Us
+            <Link to="/about-us">About Us</Link>
+            {/* About Us
             <i className="fa-solid fa-chevron-right" />
             <div className="header_link_items">
               <Link to="/leadership">The Firm & its Leadership</Link>
               <Link to="/team">The Team</Link>
-            </div>
+            </div> */}
           </span>
+          <span className="link_seperator"></span>
           <span>
             Specialisation
-            <i className="fa-solid fa-chevron-right" />
+            <i class="fa-solid fa-caret-down" />
             <div className="header_link_items">
               <Link to="/about-us">Litigation</Link>
               <Link to="/about-us">Dispute Resolution</Link>
@@ -50,9 +52,9 @@ const Header = () => {
           <span>
             <a href="#reach">Contact Us</a>
           </span>
-        </div>
 
-        <AnchorButton text="Submit Your Query" id="#contact" />
+          <AnchorButton text="Submit Your Query" id="#contact" />
+        </div>
       </div>
     </header>
   );
