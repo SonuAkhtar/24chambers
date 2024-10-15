@@ -7,15 +7,12 @@ import image2 from "/Images/assets/about/Picture2.jpg";
 import image3 from "/Images/assets/about/Picture3.png";
 
 // import components
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import LinkButton from "../../components/LinkButton/LinkButton";
 
 const Leadership = () => {
   return (
     <div className="leadership">
-      <Header />
       <div className="leadership_wrapper">
         <main>
           <SectionHeader title="THE FIRM & ITS LEADERSHIP" />
@@ -119,7 +116,6 @@ const Leadership = () => {
           </div>
         </main>
       </div>
-      <Footer />
     </div>
   );
 };

@@ -1,0 +1,11 @@
+.specialisation {
+  margin-top: 10vh;
+  height: 100%;
+  width: 100%;
+}
+
+.specialisation_wrapper {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  color: var(--main-blue);
+}

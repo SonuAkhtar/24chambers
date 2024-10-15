@@ -11,14 +11,9 @@ import image6 from "/Images/assets/about/Picture6.png";
 import image7 from "/Images/assets/about/Picture7.png";
 import image8 from "/Images/assets/about/Picture8.png";
 
-// import components
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
-
 const AboutUs = () => {
   return (
     <div className="aboutUs">
-      <Header />
       <div className="aboutUs_wrapper">
         <main className="aboutUs_main">
           <h1 className="aboutUs_title">ABOUT US</h1>
@@ -252,7 +247,6 @@ const AboutUs = () => {
           </section>
         </main>
       </div>
-      <Footer />
     </div>
   );
 };

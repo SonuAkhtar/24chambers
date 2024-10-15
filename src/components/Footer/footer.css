@@ -15,7 +15,7 @@
   padding: 2rem 1rem;
 }
 
-.homepage_container .footer_wrapper hr {
+.footer_wrapper hr {
   width: 100%;
   margin: 1rem 0;
   border: 1px solid var(--main-gold);

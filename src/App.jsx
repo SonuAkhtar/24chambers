@@ -13,10 +13,15 @@ import NotFound from "./pages/NotFound/NotFound";
 import Leadership from "./pages/Leadership/Leadership";
 import Team from "./pages/Team/Team";
 
+// import Components
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+
 function App() {
   return (
     <div className="app_container">
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route path="/blogs" element={<Blogs />} />
@@ -26,6 +31,7 @@ function App() {
           <Route path="/specialisation" element={<Specialisation />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

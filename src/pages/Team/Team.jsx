@@ -11,8 +11,6 @@ import image4 from "/Images/assets/about/Picture4.png";
 import image5 from "/Images/assets/about/Picture5.png";
 
 // import components
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import LinkButton from "../../components/LinkButton/LinkButton";
 
@@ -21,7 +19,6 @@ const Team = () => {
 
   return (
     <div className="team">
-      <Header />
       <div className="team_wrapper">
         <main>
           <SectionHeader title="THE TEAM" />
@@ -191,7 +188,6 @@ const Team = () => {
           </section>
         </main>
       </div>
-      <Footer />
     </div>
   );
 };

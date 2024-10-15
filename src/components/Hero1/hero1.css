@@ -1,6 +1,6 @@
 .hero1_section {
   position: relative;
-  background-image: url("../../../public/Images/assets/23chambers_logo.jpg");
+  background-image: url("/Images/assets/23chambers_logo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--main-blue);

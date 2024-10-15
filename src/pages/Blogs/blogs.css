@@ -1,0 +1,11 @@
+.blogs {
+  margin-top: 10vh;
+  height: 100%;
+  width: 100%;
+}
+
+.blogs_wrapper {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  color: var(--main-blue);
+}
