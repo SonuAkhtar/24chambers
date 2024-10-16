@@ -1,7 +1,7 @@
 .header_container {
   position: fixed;
   top: 0;
-  height: max-content;
+  height: 10vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,8 +9,8 @@
   padding: 1rem 2rem;
   background-color: var(--main-blue);
   color: #fff;
-  z-index: 99;
   box-shadow: 0 0px 2px var(--main-gold);
+  z-index: 99;
 }
 
 .header_wrapper {
@@ -125,7 +125,7 @@
 @media screen and (max-width: 600px) {
   .header_wrapper .header_links {
     position: absolute;
-    top: 15vh;
+    top: 10vh;
     left: 0;
     width: 100%;
     height: 90vh;
@@ -199,7 +199,7 @@
 
   .header_container .anchor_button {
     position: absolute;
-    top: 60vh;
+    top: 55vh;
     left: 150vw;
     width: 250px;
     z-index: 999;
