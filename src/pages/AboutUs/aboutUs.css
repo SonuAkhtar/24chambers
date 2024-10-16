@@ -48,7 +48,7 @@
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1rem;
+  padding-left: 1rem;
   background-color: var(--off-white);
 }
 
@@ -69,7 +69,6 @@
 .aboutUs_wrapper .section_detail img {
   height: 500px;
   width: 40%;
-  border-radius: 0.5rem;
   object-fit: cover;
 }
 
@@ -238,6 +237,7 @@
   .aboutUs_wrapper .section_detail {
     border-radius: 0;
     flex-direction: column-reverse;
+    padding: 0;
   }
 
   .aboutUs_wrapper .section_detail img {
@@ -250,6 +250,7 @@
     font-size: 1rem;
     line-height: 1.25rem;
     width: 100%;
+    padding: 0 1rem 1rem 1rem;
   }
 
   /* Founder section */

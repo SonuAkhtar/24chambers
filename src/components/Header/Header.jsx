@@ -40,7 +40,7 @@ const Header = () => {
           <span className="link_separator"></span>
           <span>
             Specialisation
-            <i class="fa-solid fa-caret-down" />
+            <i className="fa-solid fa-caret-down" />
             <div className="header_link_items">
               <Link to="/about-us">Litigation</Link>
               <Link to="/about-us">Dispute Resolution</Link>
