@@ -19,8 +19,7 @@ const Contact = () => {
                 <div className="contact_card_office">Head Office</div>
                 <div className="contact_card_address">
                   <a
-                    href="http://maps.google.com/?q=24 Jangpura ‘A’, First Floor, Mathura Road, New Delhi –
-                    110014"
+                    href="https://maps.app.goo.gl/Riib6HBiFkLDm2Jm8"
                     target="_blank"
                   >
                     <i className="fa-solid fa-location-dot" />
@@ -47,8 +46,7 @@ const Contact = () => {
                 <div className="contact_card_office">Chamber</div>
                 <div className="contact_card_address">
                   <a
-                    href="http://maps.google.com/?q=217, Block ‘S’, High Court of Delhi, Sher Shar Road, New
-                    Delhi – 110003"
+                    href="https://maps.app.goo.gl/fBf4b3MHNCsWGPZj9"
                     target="_blank"
                   >
                     <i className="fa-solid fa-location-dot" />
