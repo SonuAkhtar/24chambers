@@ -5,13 +5,12 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // import Pages
-import AboutUs from "./pages/AboutUs/AboutUs";
-import Blogs from "./pages/Blogs/Blogs";
 import Homepage from "./pages/Homepage/Homepage";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import Profile from "./pages/Profile/Profile";
 import Specialisation from "./pages/Specialisation/Specialisation";
+import Blogs from "./pages/Blogs/Blogs";
 import NotFound from "./pages/NotFound/NotFound";
-import Leadership from "./pages/Leadership/Leadership";
-import Team from "./pages/Team/Team";
 
 // import Components
 import Header from "./components/Header/Header";
@@ -24,11 +23,10 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Homepage />} />
-          <Route path="/blogs" element={<Blogs />} />
-          {/* <Route path="/about-us" element={<AboutUs />} /> */}
-          <Route path="/leadership" element={<Leadership />} />
-          <Route path="/team" element={<Team />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/profile/:name" element={<Profile />} />
           <Route path="/specialisation" element={<Specialisation />} />
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
