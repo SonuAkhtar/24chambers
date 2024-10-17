@@ -1,4 +1,4 @@
-export const discData = [
+export const disclaimerData = [
   {
     id: 1,
     info: "That you have requested access to the website to seek information about us",
@@ -114,6 +114,8 @@ export const profileData = [
     practice: "Litigation and Dispute Resolution",
     specialization:
       "Civil Law, Commercial Law, Insurance Law, Property Law, Commercial and Infrastructure Arbitration",
+    expertise: "",
+
     details: [
       {
         id: 1,
@@ -145,7 +147,8 @@ export const profileData = [
     email: "tanvi.nigam@24chambers.in",
     linkedin: "www.linkedin.com/in/tanvi-nigam-a07753151",
     practice: "",
-    specialization:
+    specialization: "",
+    expertise:
       "Civil Law, Commercial Law, Arbitration, Insurance Law, Trade Law and Constitutional Law.",
     details: [
       {
@@ -182,6 +185,8 @@ export const profileData = [
     linkedin: "https://www.linkedin.com/in/animesh-upadhyay-a3685514b/",
     practice: "",
     specialization: "",
+    expertise: "Criminal Law",
+
     details: [
       {
         id: 1,
@@ -196,7 +201,7 @@ export const profileData = [
         text: "Additionally, Animesh has authored numerous articles on topics ranging from criminal justice to insolvency law and arbitration, offering insightful analysis and thought-provoking commentary on the most pressing legal issues. Animesh brings expertise, dedication, and passion that sets him apart in the legal community.",
       },
     ],
-    membership: [],
+    membership: "",
     awards: "",
   },
 ];
