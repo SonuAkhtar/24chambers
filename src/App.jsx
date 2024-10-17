@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 // import CSS
 import "./App.css";
 
@@ -15,10 +16,20 @@ import NotFound from "./pages/NotFound/NotFound";
 // import Components
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Disclaimer from "./components/Disclaimer/Disclaimer";
 
 function App() {
+  // check if user agreed discalaimer or not
+  const [disclaimer, setDisclaimer] = useState(false);
+  useEffect(() => {
+    const discAgree = localStorage.getItem("disclaimer_agree");
+    setDisclaimer(!!discAgree);
+  }, [disclaimer]);
+
   return (
     <div className="app_container">
+      {!disclaimer && <Disclaimer />}
+
       <BrowserRouter>
         <Header />
         <Routes>

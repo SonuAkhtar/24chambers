@@ -1,12 +1,22 @@
+import { useEffect, useState } from "react";
+
 // import CSS
 import "./disclaimer.css";
 
 // import AppData
-import { discData } from "../../../appData";
+import { disclaimerData } from "../../../appData";
 
 const Disclaimer = () => {
+  const [hide, setHide] = useState(false);
+
+  // method to handle I Agree button click
+  const handleAgreeClick = () => {
+    localStorage.setItem("disclaimer_agree", true);
+    setHide(true);
+  };
+
   return (
-    <section className="disclaimer">
+    <section className={`disclaimer ${hide && "hide"}`}>
       <div className="disclaimer_wrapper">
         <h1 className="disclaimer_title">DISCLAIMER</h1>
         <div className="disclaimer_info">
@@ -20,15 +30,17 @@ const Disclaimer = () => {
           </p>
           <div className="list_items">
             <ul>
-              {discData.map((data) => (
+              {disclaimerData.map((data) => (
                 <li key={data.id}>{data.info}</li>
               ))}
             </ul>
           </div>
         </div>
         <div className="disclaimer_button">
-          <button className="agree">I Agree</button>
-          <button className="decline">Decline</button>
+          <button className="agree" onClick={handleAgreeClick}>
+            I Agree
+          </button>
+          {/* <button className="decline">Decline</button> */}
         </div>
       </div>
     </section>
