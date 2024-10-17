@@ -11,36 +11,48 @@ const Footer = () => {
     <footer className="footer_container">
       <div className="footer_wrapper">
         <div className="footer_top">
-          <Link to="/">
-            <img className="footer_logo" src={logoImage} alt="header logo" />
-          </Link>
+          <div className="footer_top_left">
+            <div className="footer_logo">
+              <img src={logoImage} alt="logo" />
+            </div>
+            <div className="footer_city">New Delhi | Jaipur</div>
+            <div className="footer_connect">
+              <h3>Connect with us:</h3>
 
-          <div className="footer_address">
-            <span>Address: </span>24 Jangpura ‘A’, 1st Floor, Mathura Road, New
-            Delhi-110014
+              <div className="footer_email_linkedin">
+                Email:
+                <a href="mailto:office@24chambers.in" className="email">
+                  office@24chambers.in
+                </a>
+              </div>
+              <a
+                href="https://www.linkedin.com/company/24-chambers/about/?viewAsMember=true"
+                className="linkedin"
+              >
+                <i className="fa-brands fa-linkedin-in" />
+              </a>
+            </div>
           </div>
-
-          <a className="social" href="">
-            <i className="fa-brands fa-linkedin-in" />
-          </a>
-
-          {/* <div className="footer_links">
-            <div className="footer_link_item">
-              <h2>Specialisation</h2>
-              <div className="links">
-                <span>Litigation</span>
-                <span>Dispute Resolution</span>
-              </div>
-            </div>
-
-            <div className="footer_link_item">
-              <h2>About Us</h2>
-              <div className="links">
-                <span>Founders</span>
-                <span>Team Members</span>
-              </div>
-            </div>
-          </div> */}
+          <div className="footer_top_right">
+            <h3>Access Links</h3>
+            <ul>
+              <li>
+                <Link to="/about-us">About Us</Link>
+              </li>
+              <li>
+                <Link to="/blogs">Blogs</Link>
+              </li>
+              <li>
+                <Link to="/specialisation">Specialization</Link>
+              </li>
+              <li>
+                <Link to="/#query">Query</Link>
+              </li>
+              <li>
+                <Link to="/#locations">Locations</Link>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="footer_bottom">
           <div className="name">24 Chambers, 2024-2025</div>
