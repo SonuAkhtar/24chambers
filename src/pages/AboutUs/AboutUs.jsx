@@ -22,45 +22,53 @@ const AboutUs = () => {
       <div className="aboutUs_wrapper">
         <main className="aboutUs_main">
           <div className="leadership_intro">
-            <p>
-              24 Chambers is a law firm providing services across a range of
-              core practice areas. With its Head Office in New Delhi, the firm
-              is well-positioned to serve clients across India and is committed
-              to providing the highest level of service.
-            </p>
-            <br />
-            <p>
-              We believe in building strong relationships based on trust,
-              communication, and dedication to achieving our clients' goals. Our
-              team works closely with clients to develop and implement
-              customised legal strategies to secure the best possible outcomes.
-            </p>
+            <div className="div_wrapper">
+              <p>
+                24 Chambers is a law firm providing services across a range of
+                core practice areas. With its Head Office in New Delhi, the firm
+                is well-positioned to serve clients across India and is
+                committed to providing the highest level of service.
+              </p>
+              <br />
+              <p>
+                We believe in building strong relationships based on trust,
+                communication, and dedication to achieving our clients' goals.
+                Our team works closely with clients to develop and implement
+                customised legal strategies to secure the best possible
+                outcomes.
+              </p>
+            </div>
           </div>
 
           <section className="leadership">
-            <h1 className="about_section_title">THE FIRM AND ITS BEGINNINGS</h1>
             <div className="section_detail one">
               <div className="section_image_info">
+                <h1 className="about_section_title">
+                  THE FIRM AND ITS BEGINNINGS
+                </h1>
+
                 <p>
-                  The present law firm “24 Chambers” originates with the
-                  foundation laid by Late Shri S.C. Nigam, Advocate, who set up
-                  and established his chamber at 24, Jangpura 'A', Mathura Road
-                  New Delhi in 1975.
-                </p>
-                <p>
-                  Shri S.C. Nigam attained the degree of Bachelor of Arts
-                  (Commerce Group). and LL.B. Thereafter, he enrolled as an
-                  Advocate with the Bar Council of Delhi in the year 1958. He
-                  joined the chambers of Late Shri Shiv Narain Shankar who was
-                  later elevated as a Judge, Delhi High Court. He was also
-                  associated with other eminent jurists like Late Shri Sardar
-                  Bahadur.
-                </p>
-                <p>
-                  Shri S.C. Nigam was a renowned expert in Civil Laws with a
-                  specialised practice in Property Law and Electricity Laws. He
-                  was the Standing Counsel and Legal Advisor for New Delhi
-                  Municipal Committee (now, New Delhi Municipal Council).
+                  <span>
+                    The present law firm “24 Chambers” originates with the
+                    foundation laid by Late Shri S.C. Nigam, Advocate, who set
+                    up and established his chamber at 24, Jangpura 'A', Mathura
+                    Road New Delhi in 1975.
+                  </span>
+                  <span>
+                    Shri S.C. Nigam attained the degree of Bachelor of Arts
+                    (Commerce Group). and LL.B. Thereafter, he enrolled as an
+                    Advocate with the Bar Council of Delhi in the year 1958. He
+                    joined the chambers of Late Shri Shiv Narain Shankar who was
+                    later elevated as a Judge, Delhi High Court. He was also
+                    associated with other eminent jurists like Late Shri Sardar
+                    Bahadur.
+                  </span>
+                  <span>
+                    Shri S.C. Nigam was a renowned expert in Civil Laws with a
+                    specialised practice in Property Law and Electricity Laws.
+                    He was the Standing Counsel and Legal Advisor for New Delhi
+                    Municipal Committee (now, New Delhi Municipal Council).
+                  </span>
                 </p>
               </div>
 
@@ -70,25 +78,28 @@ const AboutUs = () => {
             <div className="section_detail two">
               <div className="section_image_info">
                 <p>
-                  Mr Nigam built a reputation and practice rooted in integrity,
-                  expertise and steadfast commitment to clients. From its humble
-                  beginnings to its current evolution, 24 Chambers stands as a
-                  testament to the enduring legacy of Late Shri S.C. Nigam,
-                  Advocate.
-                </p>
-                <p>
-                  Over the years, the chamber evolved and adapted to the
-                  changing legal landscape while remaining rooted in the
-                  principles upon which it was founded. Now a Partnership Firm,
-                  24 Chambers continues to build upon the strong foundations
-                  laid over five decades ago. The firm is dedicated to providing
-                  personalized attention, and solutions by representing clients
-                  in a rapidly evolving legal environment.
-                </p>
-                <p>
-                  As we look to the future, we remain steadfast in our
-                  commitment to upholding excellence and service that have
-                  defined 24 Chambers since its inception.
+                  <span>
+                    Mr Nigam built a reputation and practice rooted in
+                    integrity, expertise and steadfast commitment to clients.
+                    From its humble beginnings to its current evolution, 24
+                    Chambers stands as a testament to the enduring legacy of
+                    Late Shri S.C. Nigam, Advocate.
+                  </span>
+                  <span>
+                    Over the years, the chamber evolved and adapted to the
+                    changing legal landscape while remaining rooted in the
+                    principles upon which it was founded. Now a Partnership
+                    Firm, 24 Chambers continues to build upon the strong
+                    foundations laid over five decades ago. The firm is
+                    dedicated to providing personalized attention, and solutions
+                    by representing clients in a rapidly evolving legal
+                    environment.
+                  </span>
+                  <span>
+                    As we look to the future, we remain steadfast in our
+                    commitment to upholding excellence and service that have
+                    defined 24 Chambers since its inception.
+                  </span>
                 </p>
               </div>
 

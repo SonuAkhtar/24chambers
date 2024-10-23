@@ -7,6 +7,7 @@
 }
 
 .footer_wrapper {
+  margin: 0 auto;
   height: 100%;
   width: 100%;
   max-width: 1400px;
@@ -68,7 +69,7 @@
 }
 
 .footer_top_right {
-  padding-right: 10vw;
+  padding-right: 5vw;
 }
 
 .footer_top_right h3 {

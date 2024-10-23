@@ -15,6 +15,12 @@
 
   --off-white: #fafafa;
   --off-white-light: #f0f0f0;
+
+  --screen-xl: 1281px;
+  --screen-lg: 1025px;
+  --screen-md: 769px;
+  --screen-sm: 641px;
+  --screen-xs: 426px;
 }
 
 .app_container {
@@ -24,7 +30,7 @@
 
 /* section level common css */
 section {
-  padding: 2rem 1rem;
+  padding: 0 1rem;
   height: 100%;
   width: 100%;
   display: flex;

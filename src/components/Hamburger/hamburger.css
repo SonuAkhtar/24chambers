@@ -71,7 +71,7 @@
 }
 
 /* Responsive UI for smaller screen */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
   .hamburger_wrapper {
     display: flex;
   }

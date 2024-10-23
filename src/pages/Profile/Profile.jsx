@@ -34,8 +34,10 @@ const Profile = () => {
           </div>
 
           <div className="profile_info">
-            <div className="profile_name">{currentProfile?.name}</div>
-            <div className="profile_title">{currentProfile?.title}</div>
+            <div className="profile_name_title">
+              <div className="profile_name">{currentProfile?.name}</div>
+              <div className="profile_title">{currentProfile?.title}</div>
+            </div>
 
             <div className="profile_contact">
               {/* check is phone number is present */}
@@ -55,28 +57,30 @@ const Profile = () => {
             </div>
 
             {/* check is practice area is present */}
-            {currentProfile?.practice && (
-              <div className="profile_expertise">
-                <span>Practice Areas: </span>
-                {currentProfile?.practice}
-              </div>
-            )}
+            <div className="profile_practice_special">
+              {currentProfile?.practice && (
+                <div className="profile_expertise">
+                  <span>Practice Areas: </span>
+                  {currentProfile?.practice}
+                </div>
+              )}
 
-            {/* check is specialization is present */}
-            {currentProfile?.specialization && (
-              <div className="profile_special">
-                <span>Specialization: </span>
-                {currentProfile?.specialization}
-              </div>
-            )}
+              {/* check is specialization is present */}
+              {currentProfile?.specialization && (
+                <div className="profile_special">
+                  <span>Specialization: </span>
+                  {currentProfile?.specialization}
+                </div>
+              )}
 
-            {/* check is expertise is present */}
-            {currentProfile?.expertise && (
-              <div className="profile_expertise">
-                <span>Expertise: </span>
-                {currentProfile?.expertise}
-              </div>
-            )}
+              {/* check is expertise is present */}
+              {currentProfile?.expertise && (
+                <div className="profile_expertise">
+                  <span>Expertise: </span>
+                  {currentProfile?.expertise}
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
