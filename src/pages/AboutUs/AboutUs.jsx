@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 // import CSS
@@ -14,6 +15,8 @@ import image4 from "/Images/assets/about/Picture4.png";
 import image5 from "/Images/assets/about/Picture5.png";
 
 const AboutUs = () => {
+  useEffect(() => {}, [window.scrollTo(0, 0)]);
+
   return (
     <div className="aboutUs">
       <div className="aboutUs_wrapper">
@@ -44,7 +47,6 @@ const AboutUs = () => {
                   and established his chamber at 24, Jangpura 'A', Mathura Road
                   New Delhi in 1975.
                 </p>
-                <br />
                 <p>
                   Shri S.C. Nigam attained the degree of Bachelor of Arts
                   (Commerce Group). and LL.B. Thereafter, he enrolled as an
@@ -54,7 +56,6 @@ const AboutUs = () => {
                   associated with other eminent jurists like Late Shri Sardar
                   Bahadur.
                 </p>
-                <br />
                 <p>
                   Shri S.C. Nigam was a renowned expert in Civil Laws with a
                   specialised practice in Property Law and Electricity Laws. He
@@ -75,7 +76,6 @@ const AboutUs = () => {
                   testament to the enduring legacy of Late Shri S.C. Nigam,
                   Advocate.
                 </p>
-                <br />
                 <p>
                   Over the years, the chamber evolved and adapted to the
                   changing legal landscape while remaining rooted in the
@@ -85,7 +85,6 @@ const AboutUs = () => {
                   personalized attention, and solutions by representing clients
                   in a rapidly evolving legal environment.
                 </p>
-                <br />
                 <p>
                   As we look to the future, we remain steadfast in our
                   commitment to upholding excellence and service that have

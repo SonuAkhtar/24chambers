@@ -1,19 +1,13 @@
-import { useEffect, useState } from "react";
-
-// import CSS
-import "./disclaimer.css";
+import { useState } from "react";
 
 // import AppData
 import { disclaimerData } from "../../../appData";
 
+// import CSS
+import "./disclaimer.css";
+
 const Disclaimer = () => {
   const [hide, setHide] = useState(false);
-
-  // method to handle I Agree button click
-  const handleAgreeClick = () => {
-    localStorage.setItem("disclaimer_agree", true);
-    setHide(true);
-  };
 
   return (
     <section className={`disclaimer ${hide && "hide"}`}>
@@ -37,9 +31,7 @@ const Disclaimer = () => {
           </div>
         </div>
         <div className="disclaimer_button">
-          <button className="agree" onClick={handleAgreeClick}>
-            I Agree
-          </button>
+          <button onClick={() => setHide(true)}>I Agree</button>
           {/* <button className="decline">Decline</button> */}
         </div>
       </div>

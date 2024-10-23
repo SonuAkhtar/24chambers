@@ -21,32 +21,38 @@ const Profile = () => {
         ? profileData[1]
         : profileData[2]
     );
-  }, []);
 
-  console.log(currentProfile);
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="profile">
       <main>
         <div className="profile_top">
+          <div className="profile_image">
+            <img src={currentProfile?.image} alt="profile image" />
+          </div>
+
           <div className="profile_info">
             <div className="profile_name">{currentProfile?.name}</div>
             <div className="profile_title">{currentProfile?.title}</div>
 
-            {/* check is phone number is present */}
-            {currentProfile?.phone && (
-              <div className="profile_phone">
-                <i class="fa-solid fa-phone" />
-                {currentProfile?.phone}
-              </div>
-            )}
+            <div className="profile_contact">
+              {/* check is phone number is present */}
+              {currentProfile?.phone && (
+                <div className="profile_phone">
+                  <i class="fa-solid fa-phone" />
+                  {currentProfile?.phone}
+                </div>
+              )}
 
-            <div className="profile_email">
-              <i class="fa-solid fa-envelope" /> {currentProfile?.email}
+              <div className="profile_email">
+                <i class="fa-solid fa-envelope" /> {currentProfile?.email}
+              </div>
+              <a href={currentProfile?.linkedin} className="profile_linkedin">
+                <i className="fa-brands fa-linkedin-in" />
+              </a>
             </div>
-            <a href={currentProfile?.linkedin} className="profile_linkedin">
-              <i className="fa-brands fa-linkedin-in" />
-            </a>
 
             {/* check is practice area is present */}
             {currentProfile?.practice && (
@@ -71,9 +77,6 @@ const Profile = () => {
                 {currentProfile?.expertise}
               </div>
             )}
-          </div>
-          <div className="profile_image">
-            <img src={currentProfile?.image} alt="profile image" />
           </div>
         </div>
 

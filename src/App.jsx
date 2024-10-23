@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 // import CSS
 import "./App.css";
 
@@ -19,16 +20,9 @@ import Footer from "./components/Footer/Footer";
 import Disclaimer from "./components/Disclaimer/Disclaimer";
 
 function App() {
-  // check if user agreed discalaimer or not
-  const [disclaimer, setDisclaimer] = useState(false);
-  useEffect(() => {
-    const discAgree = localStorage.getItem("disclaimer_agree");
-    setDisclaimer(!!discAgree);
-  }, [disclaimer]);
-
   return (
     <div className="app_container">
-      {!disclaimer && <Disclaimer />}
+      <Disclaimer />
 
       <BrowserRouter>
         <Header />

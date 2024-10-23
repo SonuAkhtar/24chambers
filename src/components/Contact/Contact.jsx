@@ -40,7 +40,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <span className="card_divider">|</span>
+              <span className="card_divider"></span>
 
               <div className="contact_card_item">
                 <div className="contact_card_office">Chamber</div>
@@ -69,8 +69,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
-          <hr />
 
           <div className="contact_bottom">
             <div className="contact_card_city">Rajasthan</div>

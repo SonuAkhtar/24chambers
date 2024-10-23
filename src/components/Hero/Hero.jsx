@@ -1,28 +1,25 @@
 // import CSS
-import AnchorButton from "../AnchorButton/AnchorButton";
 import "./hero.css";
-
-// import images
-import heroBg from "/Images/assets/hero/hero1.jpg";
 
 const Hero = () => {
   return (
-    <section className="hero">
-      <div className="hero_bg">
-        <img src={heroBg} alt="hero background image" />
-      </div>
+    <section className="hero_section">
+      <div className="hero_wrapper">
+        <h1 className="hero_title">24 Chambers: Your Trusted Legal Partner </h1>
+        <div className="hero_subtitle">
+          <p>
+            A law firm dedicated to delivering exceptional legal expertise and
+            personalized service to clients. With a team of seasoned lawyers, 24
+            Chambers provides tailored solutions backed by extensive knowledge
+            and experience, ensuring clients receive the best possible
+            representation.
+          </p>
 
-      <div className="section_wrapper hero">
-        <h3 className="hero_subtitle">Need help in your case?</h3>
-        <h1 className="hero_title">We Fight for Right</h1>
-        <p className="hero_info">
-          Experience unwavering commitment and expert guidance at our law firm,
-          where your success is our priority. Trust us to protect your future.
-        </p>
-
-        <div className="hero_buttons">
-          <AnchorButton text="Reach Us" id="#reach" color="dark" />
-          <AnchorButton text="Send Query" id="#query" />
+          <p>
+            With the Head Office in New Delhi and a commitment to serving
+            clients across India, 24 Chambers is well-positioned to navigate the
+            legal landscape.
+          </p>
         </div>
       </div>
     </section>

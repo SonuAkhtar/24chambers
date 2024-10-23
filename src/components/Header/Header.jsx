@@ -1,18 +1,20 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 // import CSS
 import "./header.css";
 
 // import Components
 import Hamburger from "../Hamburger/Hamburger";
-import AnchorButton from "../AnchorButton/AnchorButton";
 
 // import Images
 import logoImage from "/Images/assets/23chambers_logo.jpg";
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
+  const params = useParams();
+
+  console.log(params);
 
   const handleLinksClick = (e) => {
     if (e.target.tagName === "A") setMobileMenu(false);
@@ -30,12 +32,6 @@ const Header = () => {
         <div className="header_links" onClick={handleLinksClick}>
           <span>
             <Link to="/about-us">About Us</Link>
-            {/* About Us
-            <i className="fa-solid fa-chevron-right" />
-            <div className="header_link_items">
-              <Link to="/leadership">The Firm & its Leadership</Link>
-              <Link to="/team">The Team</Link>
-            </div> */}
           </span>
           <span className="link_separator"></span>
           <span>
@@ -54,11 +50,13 @@ const Header = () => {
           <span className="link_separator"></span>
 
           <span>
-            <a href="#reach">Contact Us</a>
+            <a href="/#contact">Contact Us</a>
           </span>
           <span className="link_separator"></span>
 
-          <AnchorButton text="Submit Your Query" id="#query" />
+          <div className="anchor_button">
+            <a href="/#query">Submit Your Query</a>
+          </div>
         </div>
       </div>
     </header>

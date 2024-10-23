@@ -17,41 +17,51 @@ const Footer = () => {
             </div>
             <div className="footer_city">New Delhi | Jaipur</div>
             <div className="footer_connect">
-              <h3>Connect with us:</h3>
+              <h4>Connect with us:</h4>
 
               <div className="footer_email_linkedin">
-                Email:
-                <a href="mailto:office@24chambers.in" className="email">
-                  office@24chambers.in
+                <span>
+                  Email:
+                  <a href="mailto:office@24chambers.in" className="email">
+                    office@24chambers.in
+                  </a>
+                </span>
+                <a
+                  href="https://www.linkedin.com/company/24-chambers/about/?viewAsMember=true"
+                  className="linkedin"
+                >
+                  <i className="fa-brands fa-linkedin-in" />
                 </a>
               </div>
-              <a
-                href="https://www.linkedin.com/company/24-chambers/about/?viewAsMember=true"
-                className="linkedin"
-              >
-                <i className="fa-brands fa-linkedin-in" />
-              </a>
             </div>
           </div>
           <div className="footer_top_right">
             <h3>Access Links</h3>
-            <ul>
-              <li>
-                <Link to="/about-us">About Us</Link>
-              </li>
-              <li>
-                <Link to="/blogs">Blogs</Link>
-              </li>
-              <li>
-                <Link to="/specialisation">Specialization</Link>
-              </li>
-              <li>
-                <Link to="/#query">Query</Link>
-              </li>
-              <li>
-                <Link to="/#locations">Locations</Link>
-              </li>
-            </ul>
+            <div className="footer_top_links_name">
+              <ul>
+                <li>
+                  <Link to="/about-us">About Us</Link>
+                </li>
+                <li>
+                  <Link to="/blogs">Blogs</Link>
+                </li>
+                <li>
+                  <Link to="/#contact">Contact</Link>
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  <Link to="/specialisation">Specialization</Link>
+                </li>
+                <li>
+                  <Link to="/#query">Query</Link>
+                </li>
+                <li>
+                  <Link to="/#locations">Locations</Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="footer_bottom">

@@ -1,7 +1,7 @@
 export const disclaimerData = [
   {
     id: 1,
-    info: "That you have requested access to the website to seek information about us",
+    info: "That you have requested access to the website to seek information about us.",
   },
   {
     id: 2,
@@ -85,19 +85,19 @@ export const teamCounselData = [
   {
     id: 1,
     name: "Ms Monica Bharadwaj",
-    image: "Images/assets/about/Picture6.png",
+    image: "Images/assets/about/counsel1.png",
     expertise: "Civil Laws, Employment Laws and Banking Laws",
   },
   {
     id: 2,
     name: "Mr Ashwin Romy",
-    image: "Images/assets/about/Picture7.png",
+    image: "Images/assets/about/counsel2.png",
     expertise: "Civil Laws and Service Law",
   },
   {
     id: 3,
     name: "Mr Kaustubh Shakkarwar",
-    image: "Images/assets/about/Picture8.png",
+    image: "Images/assets/about/counsel3.png",
     expertise: "IP, TMT, Data Protection and Taxation",
   },
 ];
