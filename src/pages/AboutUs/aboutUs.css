@@ -260,7 +260,7 @@ section.counsel_section {
 /* Responsive UI for smaller screen */
 @media screen and (max-width: 769px) {
   .aboutUs {
-    margin-top: 14vh;
+    margin-top: 10vh;
   }
 
   .aboutUs {

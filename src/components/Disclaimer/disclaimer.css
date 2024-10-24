@@ -41,7 +41,12 @@ section.disclaimer.hide {
 .disclaimer_info {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  height: 40vh;
+  overflow-y: scroll;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--main-blue);
+  border-radius: 0.25rem;
 }
 
 .disclaimer_info p {
@@ -83,21 +88,13 @@ section.disclaimer.hide {
 /* responsive design for mobile devices */
 @media screen and (max-width: 600px) {
   .disclaimer_wrapper {
-    padding: 1rem;
+    padding: 1rem 1rem 5vh 1rem;
+    gap: 1.5rem;
   }
 
   .disclaimer_title {
     font-size: 1.5rem;
     line-height: 1.5rem;
-  }
-
-  .disclaimer_info {
-    height: 40vh;
-    overflow-y: scroll;
-    gap: 1rem;
-    padding: 1rem;
-    border: 1px solid var(--main-blue);
-    border-radius: 0.25rem;
   }
 
   .disclaimer_info p {

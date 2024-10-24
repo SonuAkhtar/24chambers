@@ -2,11 +2,12 @@
   background-color: var(--main-blue);
   color: var(--off-white);
   border-bottom: 1px solid var(--off-white);
+  padding: 2rem 1rem;
 }
 
 .contact_wrapper {
   height: 100%;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   padding: 2rem;
   display: flex;

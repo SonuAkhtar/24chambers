@@ -12,6 +12,7 @@ import logoImage from "/Images/assets/23chambers_logo.jpg";
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [showSubLinks, setShowSubLinks] = useState(false);
   const params = useParams();
 
   console.log(params);
@@ -35,9 +36,15 @@ const Header = () => {
           </span>
           <span className="link_separator"></span>
           <span>
-            Specialisation
-            <i className="fa-solid fa-caret-down" />
-            <div className="header_link_items">
+            <span
+              className="specialization"
+              onClick={() => setShowSubLinks(!showSubLinks)}
+            >
+              Specialisation
+              <i className="fa-solid fa-caret-down" />
+            </span>
+
+            <div className={`header_link_items ${showSubLinks && "show"}`}>
               <Link to="/about-us">Litigation</Link>
               <Link to="/about-us">Dispute Resolution</Link>
             </div>

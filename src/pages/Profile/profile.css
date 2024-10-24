@@ -107,7 +107,7 @@
 /* Responsive UI for smaller screen */
 @media screen and (max-width: 769px) {
   .profile {
-    margin-top: 14vh;
+    margin-top: 10vh;
   }
 
   .profile main {
@@ -129,7 +129,7 @@
   .profile_info {
     width: 100%;
     padding: 1rem;
-    gap: 0.25rem;
+    gap: 1rem;
   }
 
   .profile_top .profile_name {
@@ -142,6 +142,7 @@
 
   .profile_contact {
     font-size: 1rem;
+    gap: 0.25rem;
   }
 
   .profile_linkedin {

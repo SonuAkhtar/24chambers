@@ -146,7 +146,6 @@
 
   .footer_top_left {
     width: 100%;
-    align-items: center;
   }
 
   .footer_top_right {
@@ -162,10 +161,6 @@
 
   .footer_top_right h3::after {
     right: -75%;
-  }
-
-  .footer_connect h4 {
-    text-align: center;
   }
 
   .footer_top_right ul {
