@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
 .hero_section {
   position: relative;
   background: linear-gradient(
@@ -8,7 +10,6 @@
   );
   height: 70vh;
   margin-top: 10vh;
-  border-radius: 0 0 10rem 10rem;
 }
 
 .hero_wrapper {
@@ -20,15 +21,20 @@
 }
 
 .hero_wrapper .hero_title {
-  font-size: 2.5rem;
+  font-family: "Abril Fatface", serif;
+  font-size: 2rem;
+  line-height: 2rem;
   font-weight: 400;
+  letter-spacing: 1px;
   color: var(--main-gold);
   text-align: center;
 }
 
 .hero_wrapper .hero_title span {
-  font-size: 3rem;
-  font-weight: 600;
+  font-family: "Abril Fatface", serif;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 400;
 }
 
 .hero_wrapper .hero_subtitle {
@@ -45,12 +51,11 @@
 /* Responsive UI for large screen */
 @media screen and (max-width: 1024px) {
   .hero_section {
-    height: 65vh;
-    border-radius: 0 0 5rem 5rem;
+    height: max-content;
   }
 
   .hero_wrapper {
-    padding: 1rem;
+    padding: 2rem 1rem;
     gap: 1rem;
   }
 
