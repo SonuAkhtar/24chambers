@@ -5,7 +5,9 @@ const Hero = () => {
   return (
     <section className="hero_section">
       <div className="hero_wrapper">
-        <h1 className="hero_title">24 Chambers: Your Trusted Legal Partner </h1>
+        <h1 className="hero_title">
+          <span>24 Chambers:</span> Your Trusted Legal Partner
+        </h1>
         <div className="hero_subtitle">
           <p>
             A law firm dedicated to delivering exceptional legal expertise and
