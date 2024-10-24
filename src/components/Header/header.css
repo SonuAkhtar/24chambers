@@ -176,7 +176,7 @@
     width: 100%;
     height: 90vh;
     padding: 0 1rem;
-    background-color: #f0f0f0;
+    background-color: var(--off-white);
     color: var(--main-blue);
     flex-direction: column;
     justify-content: unset;
@@ -246,22 +246,17 @@
   }
 
   .header_container.active .anchor_button {
-    transition-delay: 0.2s;
+    background-color: var(--main-blue);
     transform: translateX(-50%);
+    border-color: var(--main-gold);
     left: 50%;
-    font-size: 1.2rem;
+    padding: 1rem;
   }
 
-  .anchor_button {
-    padding: 0.75rem 2rem;
-  }
-}
-
-/* Responsive UI for tablet screen */
-@media screen and (max-width: 426px) {
-  .header_wrapper .header_links span,
-  .header_wrapper .header_links span a {
-    align-items: flex-start;
-    text-align: left;
+  .header_wrapper .anchor_button a {
+    color: var(--off-white);
+    text-decoration: none;
+    border: none;
+    font-size: 1.1rem;
   }
 }

@@ -11,8 +11,8 @@ import { teamCounselData } from "../../../appData";
 import image1 from "/Images/assets/about/Picture1.jpg";
 import image2 from "/Images/assets/about/Picture2.jpg";
 import image3 from "/Images/assets/about/Picture3.png";
-import image4 from "/Images/assets/about/Picture4.png";
-import image5 from "/Images/assets/about/Picture5.png";
+import image4 from "/Images/assets/about/Picture44.png";
+import image5 from "/Images/assets/about/Picture55.png";
 
 const AboutUs = () => {
   useEffect(() => {}, [window.scrollTo(0, 0)]);
@@ -113,11 +113,9 @@ const AboutUs = () => {
               <div className="about_founder_card">
                 <img src={image3} alt="team image" />
 
-                <div className="about_founder_info">
-                  <div className="about_founder_name">Mr Atul Nigam</div>
-                  <div className="about_founder_partner">
-                    Founder, 24 Chambers
-                  </div>
+                <div className="about_card_info">
+                  <div className="about_card_name">Mr Atul Nigam</div>
+                  <div className="about_card_title">Founder, 24 Chambers</div>
                 </div>
               </div>
             </Link>
@@ -130,12 +128,10 @@ const AboutUs = () => {
                 <div className="team_card_item">
                   <img src={image4} alt="team image" />
 
-                  <div className="team_card_info">
-                    <div className="team_card_name">Ms Tanvi Nigam</div>
-                    <div className="team_card_partner">
-                      Partner, 24 Chambers
-                    </div>
-                    <div className="team_card_expertise">
+                  <div className="about_card_info">
+                    <div className="about_card_name">Ms Tanvi Nigam</div>
+                    <div className="about_card_title">Partner, 24 Chambers</div>
+                    <div className="about_card_expertise">
                       <span>Expertise:</span> Civil, Commercial, Arbitration,
                       Insurance and Trade Law
                     </div>
@@ -147,12 +143,10 @@ const AboutUs = () => {
                 <div className="team_card_item">
                   <img src={image5} alt="team image" />
 
-                  <div className="team_card_info">
-                    <div className="team_card_name">Mr Animesh Upadhyay</div>
-                    <div className="team_card_partner">
-                      Partner, 24 Chambers
-                    </div>
-                    <div className="team_card_expertise">
+                  <div className="about_card_info">
+                    <div className="about_card_name">Mr Animesh Upadhyay</div>
+                    <div className="about_card_title">Partner, 24 Chambers</div>
+                    <div className="about_card_expertise">
                       <span>Expertise:</span> Criminal Law
                     </div>
                   </div>
@@ -170,9 +164,9 @@ const AboutUs = () => {
                     <img src={card.image} alt="counsel image" />
                   </div>
 
-                  <div className="counsel_card_info">
-                    <h4 className="counsel_name">{card.name}</h4>
-                    <div className="counsel_expertise">
+                  <div className="about_card_info">
+                    <h4 className="about_card_name">{card.name}</h4>
+                    <div className="about_card_expertise">
                       <span>Expertise: </span>
                       {card.expertise}
                     </div>

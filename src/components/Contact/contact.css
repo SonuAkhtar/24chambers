@@ -6,7 +6,6 @@
     rgba(0, 79, 97, 1) 100%
   );
   color: var(--off-white);
-  border-bottom: 1px solid var(--off-white);
   padding: 2rem 1rem;
 }
 
@@ -82,7 +81,7 @@
 }
 
 /* Responsive UI for smaller screen */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
   .contact_wrapper {
     width: 100%;
     padding: 1rem;

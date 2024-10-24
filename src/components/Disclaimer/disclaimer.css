@@ -42,6 +42,7 @@ section.disclaimer.hide {
   display: flex;
   flex-direction: column;
   height: 40vh;
+  width: 80%;
   overflow-y: scroll;
   gap: 1rem;
   padding: 1rem;
@@ -86,15 +87,20 @@ section.disclaimer.hide {
 }
 
 /* responsive design for mobile devices */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
   .disclaimer_wrapper {
-    padding: 1rem 1rem 5vh 1rem;
+    padding: 1rem 1rem 10vh 1rem;
     gap: 1.5rem;
   }
 
   .disclaimer_title {
     font-size: 1.5rem;
     line-height: 1.5rem;
+  }
+
+  .disclaimer_info {
+    height: 30vh;
+    width: 100%;
   }
 
   .disclaimer_info p {

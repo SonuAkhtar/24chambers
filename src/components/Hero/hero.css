@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Righteous&family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Martel:wght@200;300;400;600;700;800;900&family=Righteous&family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alata&family=DM+Serif+Display:ital@0;1&family=Martel:wght@200;300;400;600;700;800;900&family=Righteous&family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alata&family=DM+Serif+Display:ital@0;1&family=Martel:wght@200;300;400;600;700;800;900&family=Paytone+One&family=Righteous&family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alata&family=Bangers&family=DM+Serif+Display:ital@0;1&family=Martel:wght@200;300;400;600;700;800;900&family=Paytone+One&family=Righteous&family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alata&family=Bangers&family=DM+Serif+Display:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Martel:wght@200;300;400;600;700;800;900&family=Paytone+One&family=Righteous&family=Squada+One&display=swap");
 
 .hero_section {
   position: relative;
@@ -9,6 +17,7 @@
     rgba(0, 79, 97, 1) 100%
   );
   height: 70vh;
+  height: max-content;
   margin-top: 10vh;
 }
 
@@ -21,7 +30,6 @@
 }
 
 .hero_wrapper .hero_title {
-  font-family: "Abril Fatface", serif;
   font-size: 2rem;
   line-height: 2rem;
   font-weight: 400;
@@ -30,11 +38,40 @@
   text-align: center;
 }
 
-.hero_wrapper .hero_title span {
+.hero_wrapper .hero_title.one {
   font-family: "Abril Fatface", serif;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  font-weight: 400;
+}
+
+.hero_wrapper .hero_title.two {
+  font-family: "DM Serif Display", serif;
+}
+
+.hero_wrapper .hero_title.three {
+  font-family: "Righteous", sans-serif;
+}
+
+.hero_wrapper .hero_title.four {
+  font-family: "Squada One", sans-serif;
+}
+
+.hero_wrapper .hero_title.five {
+  font-family: "Martel", serif;
+}
+
+.hero_wrapper .hero_title.six {
+  font-family: "Alata", sans-serif;
+}
+
+.hero_wrapper .hero_title.seven {
+  font-family: "Paytone One", sans-serif;
+}
+
+.hero_wrapper .hero_title.eight {
+  font-family: "Bangers", system-ui;
+}
+
+.hero_wrapper .hero_title.nine {
+  font-family: "Fraunces", serif;
 }
 
 .hero_wrapper .hero_subtitle {
@@ -61,10 +98,6 @@
 
   .hero_wrapper .hero_title {
     font-size: 1.75rem;
-  }
-
-  .hero_wrapper .hero_title span {
-    font-size: 2rem;
   }
 
   .hero_wrapper .hero_subtitle {

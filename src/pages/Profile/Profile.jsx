@@ -29,57 +29,59 @@ const Profile = () => {
     <div className="profile">
       <main>
         <div className="profile_top">
-          <div className="profile_image">
-            <img src={currentProfile?.image} alt="profile image" />
-          </div>
-
-          <div className="profile_info">
-            <div className="profile_name_title">
-              <div className="profile_name">{currentProfile?.name}</div>
-              <div className="profile_title">{currentProfile?.title}</div>
+          <div className="profile_top_wrapper">
+            <div className="profile_image">
+              <img src={currentProfile?.image} alt="profile image" />
             </div>
 
-            <div className="profile_contact">
-              {/* check is phone number is present */}
-              {currentProfile?.phone && (
-                <div className="profile_phone">
-                  <i class="fa-solid fa-phone" />
-                  {currentProfile?.phone}
-                </div>
-              )}
-
-              <div className="profile_email">
-                <i class="fa-solid fa-envelope" /> {currentProfile?.email}
+            <div className="profile_info">
+              <div className="profile_name_title">
+                <div className="profile_name">{currentProfile?.name}</div>
+                <div className="profile_title">{currentProfile?.title}</div>
               </div>
-              <a href={currentProfile?.linkedin} className="profile_linkedin">
-                <i className="fa-brands fa-linkedin-in" />
-              </a>
-            </div>
 
-            {/* check is practice area is present */}
-            <div className="profile_practice_special">
-              {currentProfile?.practice && (
-                <div className="profile_expertise">
-                  <span>Practice Areas: </span>
-                  {currentProfile?.practice}
-                </div>
-              )}
+              <div className="profile_contact">
+                {/* check is phone number is present */}
+                {currentProfile?.phone && (
+                  <div className="profile_phone">
+                    <i class="fa-solid fa-phone" />
+                    {currentProfile?.phone}
+                  </div>
+                )}
 
-              {/* check is specialization is present */}
-              {currentProfile?.specialization && (
-                <div className="profile_special">
-                  <span>Specialization: </span>
-                  {currentProfile?.specialization}
+                <div className="profile_email">
+                  <i class="fa-solid fa-envelope" /> {currentProfile?.email}
                 </div>
-              )}
+                <a href={currentProfile?.linkedin} className="profile_linkedin">
+                  <i className="fa-brands fa-linkedin-in" />
+                </a>
+              </div>
 
-              {/* check is expertise is present */}
-              {currentProfile?.expertise && (
-                <div className="profile_expertise">
-                  <span>Expertise: </span>
-                  {currentProfile?.expertise}
-                </div>
-              )}
+              {/* check is practice area is present */}
+              <div className="profile_practice_special">
+                {currentProfile?.practice && (
+                  <div className="profile_expertise">
+                    <span>Practice Areas: </span>
+                    {currentProfile?.practice}
+                  </div>
+                )}
+
+                {/* check is specialization is present */}
+                {currentProfile?.specialization && (
+                  <div className="profile_special">
+                    <span>Specialization: </span>
+                    {currentProfile?.specialization}
+                  </div>
+                )}
+
+                {/* check is expertise is present */}
+                {currentProfile?.expertise && (
+                  <div className="profile_expertise">
+                    <span>Expertise: </span>
+                    {currentProfile?.expertise}
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>

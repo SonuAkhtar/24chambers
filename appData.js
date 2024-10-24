@@ -140,7 +140,7 @@ export const profileData = [
 
   {
     id: 2,
-    image: "/Images/assets/about/Picture4.png",
+    image: "/Images/assets/about/Picture44.png",
     name: "Ms Tanvi Nigam",
     title: "Partner, 24 Chambers",
     phone: "",
@@ -177,7 +177,7 @@ export const profileData = [
 
   {
     id: 3,
-    image: "/Images/assets/about/Picture5.png",
+    image: "/Images/assets/about/Picture55.png",
     name: "Mr Animesh Upadhyay",
     title: "Partner, 24 Chambers",
     phone: "",

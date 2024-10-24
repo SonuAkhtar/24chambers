@@ -129,7 +129,7 @@
 }
 
 /* Responsive UI for smaller screen */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
   .footer_container {
     padding: 1rem;
   }

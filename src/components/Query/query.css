@@ -3,7 +3,7 @@
 }
 
 .query_section form {
-  width: 60%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -69,16 +69,16 @@
 .query_section .query_note {
   text-align: center;
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .query_section .query_note span {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* Responsive UI for smaller screen */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
   .query_section form {
     width: 100%;
     padding: 1rem;
@@ -94,5 +94,9 @@
 
   .query_section input {
     width: 100%;
+  }
+
+  .query_section form button {
+    font-size: 1.1rem;
   }
 }

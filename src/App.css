@@ -15,6 +15,7 @@
 
   --off-white: #fafafa;
   --off-white-light: #f0f0f0;
+  --off-white-dark: #f3f3f3;
 
   --screen-xl: 1281px;
   --screen-lg: 1025px;
@@ -54,7 +55,7 @@ a {
 }
 
 /* Responsive UI for smaller screen */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
   section main {
     gap: 1rem;
   }
