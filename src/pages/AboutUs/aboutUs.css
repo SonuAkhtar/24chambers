@@ -29,6 +29,7 @@
   border-bottom: 1px solid var(--main-blue);
   text-align: justify;
   max-width: 1400px;
+  display: none;
 }
 
 .aboutUs_wrapper main .about_section_title {
