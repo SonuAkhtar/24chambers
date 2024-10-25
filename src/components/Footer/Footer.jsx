@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="footer_logo">
               <img src={logoImage} alt="logo" />
             </div>
-            <div className="footer_city">New Delhi | Jaipur</div>
+            <div className="footer_city">New Delhi | Rajasthan</div>
             <div className="footer_connect">
               <h4>Connect with us:</h4>
 
