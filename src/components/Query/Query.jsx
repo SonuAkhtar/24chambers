@@ -64,12 +64,12 @@ const Query = () => {
           />
 
           <button type="submit">Submit</button>
-        </form>
 
-        <div className="query_note">
-          <span>Note:</span> 24 Chambers shall endeavour to contact you within
-          24 hours in response to your query.
-        </div>
+          <div className="query_note">
+            <span>Note:</span> 24 Chambers shall endeavour to contact you within
+            24 hours in response to your query.
+          </div>
+        </form>
       </main>
     </section>
   );
