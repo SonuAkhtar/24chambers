@@ -12,8 +12,8 @@ const Hero = () => {
               24 Chambers is a law firm dedicated to delivering exceptional
               legal expertise and personalized service to clients across a range
               of core practice areas. With its Head Office in New Delhi, the
-              firm is well- positioned to serve clients across India and is
-              well-positioned to navigate the legal landscape.
+              firm is well-positioned to navigate the legal landscape and serve
+              clients across India.
             </span>
             <span>
               With a team of seasoned lawyers, 24 Chambers provides tailored
