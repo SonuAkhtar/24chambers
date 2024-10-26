@@ -1,0 +1,16 @@
+// import CSS
+import "./specialCard.css";
+
+const SpecialCard = ({ icon, title, subtitle }) => {
+  return (
+    <div className="specialCard">
+      <div className="specialCard_icon_title">
+        <i class={icon} />
+        <h3>{title}</h3>
+      </div>
+      <div className="specialCard_subtitle">{subtitle}</div>
+    </div>
+  );
+};
+
+export default SpecialCard;

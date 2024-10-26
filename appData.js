@@ -36,48 +36,29 @@ export const disclaimerData = [
 export const specialData = [
   {
     id: 1,
-    title: "Litigation",
-    info: "We solve cases related to sexual harassment of all types",
+    title: "Civil and Commercial Litigation",
+    subtitle:
+      "Litigation includes matters related to Commercial Disputes, Property Disputes, Insurance Law, Trade Law, Insolvency and Bankruptcy, Constitutional Law and Administrative Law.",
+    icon: "fas fa-gavel",
   },
   {
     id: 2,
-    title: "Taxation",
-    info: "We solve cases related to sexual harassment of all types",
+    title: "Criminal Litigation",
+    subtitle:
+      "Litigation includes matters related to Economic Offences and other economic crimes.",
+    icon: "fas fa-balance-scale-right",
   },
   {
     id: 3,
-    title: "Corporate",
-    info: "We solve cases related to sexual harassment of all types",
+    title: "Dispute Resolution",
+    subtitle: "Arbitration and Mediation.",
+    icon: "fas fa-exclamation-triangle",
   },
   {
     id: 4,
-    title: "Real Estate",
-    info: "We solve cases related to sexual harassment of all types",
-  },
-  {
-    id: 5,
-    title: "Criminal",
-    info: "We solve cases related to sexual harassment of all types",
-  },
-  {
-    id: 6,
-    title: "Domestic Violance",
-    info: "We solve cases related to sexual harassment of all types",
-  },
-  {
-    id: 7,
-    title: "Regulatory",
-    info: "We solve cases related to sexual harassment of all types",
-  },
-  {
-    id: 8,
-    title: "Competition",
-    info: "We solve cases related to sexual harassment of all types",
-  },
-  {
-    id: 9,
-    title: "Intellectual",
-    info: "We solve cases related to sexual harassment of all types",
+    title: "Private Client Practice",
+    subtitle: "Succession, Inheritance, Testamentary Instruments",
+    icon: "fas fa-user",
   },
 ];
 

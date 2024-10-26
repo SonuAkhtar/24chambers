@@ -34,8 +34,12 @@ const Header = () => {
           <span>
             <Link to="/about-us">About Us</Link>
           </span>
+
           <span className="link_separator"></span>
           <span>
+            <Link to="/specialisation">Specialisation</Link>
+          </span>
+          {/* <span>
             <span
               className="specialization"
               onClick={() => setShowSubLinks(!showSubLinks)}
@@ -48,7 +52,7 @@ const Header = () => {
               <Link to="/about-us">Litigation</Link>
               <Link to="/about-us">Dispute Resolution</Link>
             </div>
-          </span>
+          </span> */}
           <span className="link_separator"></span>
 
           <span>
