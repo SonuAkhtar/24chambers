@@ -142,6 +142,7 @@ section.about_founder {
 .about_founder_card img {
   width: 80%;
   object-fit: cover;
+  border-radius: 0.25rem;
 }
 
 /* Team section */
@@ -174,6 +175,8 @@ section.about_team {
 .about_team .team_card_item img {
   width: 75%;
   object-fit: cover;
+  background-color: var(--off-white);
+  border-radius: 0.25rem;
 }
 
 /* Counsels section */
