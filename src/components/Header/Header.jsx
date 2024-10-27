@@ -15,7 +15,7 @@ const Header = () => {
   const [showSubLinks, setShowSubLinks] = useState(false);
   const params = useParams();
 
-  console.log(params);
+  console.log(window.location.pathname);
 
   const handleLinksClick = (e) => {
     if (e.target.tagName === "A") setMobileMenu(false);

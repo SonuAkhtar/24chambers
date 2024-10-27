@@ -5,7 +5,7 @@ const SpecialCard = ({ icon, title, subtitle }) => {
   return (
     <div className="specialCard">
       <div className="specialCard_icon_title">
-        <i class={icon} />
+        <i className={icon} />
         <h3>{title}</h3>
       </div>
       <div className="specialCard_subtitle">{subtitle}</div>

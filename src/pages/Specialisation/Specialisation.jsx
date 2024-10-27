@@ -1,14 +1,18 @@
+import { useEffect } from "react";
+
 // import CSS
 import "./specialisation.css";
 
 // import Components
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
+import SpecialCard from "../../components/SpecialCard/SpecialCard";
 
 // import appData
 import { specialData } from "../../../appData";
-import SpecialCard from "../../components/SpecialCard/SpecialCard";
 
 const Specialisation = () => {
+  useEffect(() => {}, [window.scrollTo(0, 0)]);
+
   return (
     <div className="specialisation">
       <div className="specialisation_wrapper">
@@ -17,6 +21,7 @@ const Specialisation = () => {
         <main>
           {specialData.map((data) => (
             <SpecialCard
+              key={data.id}
               icon={data.icon}
               title={data.title}
               subtitle={data.subtitle}
