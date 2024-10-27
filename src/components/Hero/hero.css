@@ -21,22 +21,22 @@
 }
 
 .hero_wrapper .hero_title {
-  width: 100%;
+  width: 90%;
   font-size: 2rem;
   line-height: 2rem;
   font-weight: 700;
   font-family: "Libre Baskerville", serif;
   letter-spacing: 1px;
   color: var(--main-gold);
-  text-align: center;
+  text-align: left;
 }
 
 .hero_wrapper .hero_subtitle p {
+  width: 90%;
   margin: 0 auto;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--off-white);
-  width: 90%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -61,8 +61,6 @@
   }
 
   .hero_wrapper .hero_subtitle p {
-    font-size: 1.1rem;
-    width: 80%;
     font-weight: 300;
   }
 }
@@ -71,6 +69,11 @@
 @media screen and (max-width: 769px) {
   .hero_wrapper {
     padding: 2rem 0;
+  }
+
+  .hero_wrapper .hero_title {
+    width: 100%;
+    text-align: center;
   }
 
   .hero_wrapper .hero_subtitle p {
