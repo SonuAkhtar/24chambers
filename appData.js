@@ -52,7 +52,7 @@ export const specialData = [
     id: 3,
     title: "Dispute Resolution",
     subtitle: "Arbitration and Mediation.",
-    icon: "fas fa-exclamation-triangle",
+    icon: "fas fa-handshake",
   },
   {
     id: 4,
