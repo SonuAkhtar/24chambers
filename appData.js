@@ -171,7 +171,7 @@ export const profileData = [
     details: [
       {
         id: 1,
-        text: "Animesh is a practitioner with vast experience in complex cases involving criminal law, consumer law, insolvency and service law. He brings a wealth of knowledge to his practice before various tribunals, courts across Delhi and the Hon'ble Supreme Court of India.",
+        text: "Animesh is a practitioner with vast experience in complex cases involving criminal law, consumer law, insolvency laws and service law. He has experience of handling high profile cases pertaining to economic crimes. He brings a wealth of knowledge to his practice before various tribunals, courts across Delhi and the Hon’ble Supreme Court of India.",
       },
       {
         id: 2,
@@ -179,7 +179,7 @@ export const profileData = [
       },
       {
         id: 3,
-        text: "Additionally, Animesh has authored numerous articles on topics ranging from criminal justice to insolvency law and arbitration, offering insightful analysis and thought-provoking commentary on the most pressing legal issues. Animesh brings expertise, dedication, and passion that sets him apart in the legal community.",
+        text: "Additionally, Animesh has authored numerous articles on different topics including criminal justice, insolvency law and arbitration, offering insightful analysis and thought-provoking commentary on the most pressing legal issues. Animesh brings expertise, dedication, and passion that sets him apart in the legal community.",
       },
     ],
     membership: "",
