@@ -44,13 +44,13 @@ const Profile = () => {
                 {/* check is phone number is present */}
                 {currentProfile?.phone && (
                   <div className="profile_phone">
-                    <i class="fa-solid fa-phone" />
+                    <i className="fa-solid fa-phone" />
                     {currentProfile?.phone}
                   </div>
                 )}
 
                 <div className="profile_email">
-                  <i class="fa-solid fa-envelope" /> {currentProfile?.email}
+                  <i className="fa-solid fa-envelope" /> {currentProfile?.email}
                 </div>
                 <a href={currentProfile?.linkedin} className="profile_linkedin">
                   <i className="fa-brands fa-linkedin-in" />
