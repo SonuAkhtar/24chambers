@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer_top_right">
-            <h3>Access Links</h3>
+            <p>Access Links</p>
             <div className="footer_top_links_name">
               <ul>
                 <li>
