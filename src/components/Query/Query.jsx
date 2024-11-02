@@ -35,11 +35,7 @@ const Query = () => {
   return (
     <section className="query_section" id="query">
       <main className="query_main">
-        <SectionHeader
-          title="Submit Your Query"
-          subtitle="Let's Discuss"
-          color="light"
-        />
+        <SectionHeader title="Submit Your Query" subtitle="Let's Discuss" />
 
         <form onSubmit={handleFormSubmit}>
           <div className="name_contact">

@@ -8,7 +8,11 @@ const Contact = () => {
   return (
     <section className="contact_section" id="contact">
       <main>
-        <SectionHeader title="Contact Us" subtitle="Get in Touch" />
+        <SectionHeader
+          title="Contact Us"
+          subtitle="Get in Touch"
+          color="light"
+        />
 
         <div className="contact_wrapper">
           <div className="contact_top">
@@ -20,6 +24,7 @@ const Contact = () => {
                 <div className="contact_card_address">
                   <a
                     href="https://maps.app.goo.gl/Riib6HBiFkLDm2Jm8"
+                    aria-label="google maps"
                     target="_blank"
                   >
                     <i className="fa-solid fa-location-dot" />
@@ -28,12 +33,15 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="contact_card_phone">
-                  <a href="tel:+919910597272">
+                  <a href="tel:+919910597272" aria-label="phone number">
                     <i className="fa-solid fa-phone" /> +91 9910597272
                   </a>
                 </div>
                 <div className="contact_card_email">
-                  <a href="mailto:office@24chambers.in">
+                  <a
+                    href="mailto:office@24chambers.in"
+                    aria-label="email address"
+                  >
                     <i className="fa-solid fa-envelope" />
                     office@24chambers.in
                   </a>
@@ -47,6 +55,7 @@ const Contact = () => {
                 <div className="contact_card_address">
                   <a
                     href="https://maps.app.goo.gl/fBf4b3MHNCsWGPZj9"
+                    aria-label="Delhi address"
                     target="_blank"
                   >
                     <i className="fa-solid fa-location-dot" />
@@ -55,13 +64,16 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="contact_card_phone">
-                  <a href="tel:+911121410192">
+                  <a href="tel:+911121410192" aria-label="phone number">
                     <i className="fa-solid fa-phone" />
                     +91 11-21410192
                   </a>
                 </div>
                 <div className="contact_card_email">
-                  <a href="mailto:office@24chambers.in">
+                  <a
+                    href="mailto:office@24chambers.in"
+                    aria-label="email address"
+                  >
                     <i className="fa-solid fa-envelope" />
                     office@24chambers.in
                   </a>
@@ -80,6 +92,7 @@ const Contact = () => {
                   <a
                     href="http://maps.google.com/?q=House no -322 Ganesh Nagar Vistar Near Kardhani Kalwar Road,
                     Jhotwara Jaipur -302012"
+                    aria-label="Jaipur address"
                     target="_blank"
                   >
                     <i className="fa-solid fa-location-dot" />
@@ -88,12 +101,15 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="contact_card_phone">
-                  <a href="tel:+919910597272">
+                  <a href="tel:+919910597272" aria-label="phone number">
                     <i className="fa-solid fa-phone" /> +91 9910597272
                   </a>
                 </div>
                 <div className="contact_card_email">
-                  <a href="mailto:office@24chambers.in">
+                  <a
+                    href="mailto:office@24chambers.in"
+                    aria-label="email address"
+                  >
                     <i className="fa-solid fa-envelope" />
                     office@24chambers.in
                   </a>

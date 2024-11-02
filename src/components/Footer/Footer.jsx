@@ -17,17 +17,22 @@ const Footer = () => {
             </div>
             <div className="footer_city">New Delhi | Rajasthan</div>
             <div className="footer_connect">
-              <h4>Connect with us:</h4>
+              <h1>Connect with us:</h1>
 
               <div className="footer_email_linkedin">
                 <span>
                   Email:
-                  <a href="mailto:office@24chambers.in" className="email">
+                  <a
+                    href="mailto:office@24chambers.in"
+                    aria-label="email address"
+                    className="email"
+                  >
                     office@24chambers.in
                   </a>
                 </span>
                 <a
                   href="https://www.linkedin.com/company/24-chambers/about/?viewAsMember=true"
+                  aria-label="linkedin link"
                   className="linkedin"
                 >
                   <i className="fa-brands fa-linkedin-in" />

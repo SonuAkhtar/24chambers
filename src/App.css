@@ -11,17 +11,12 @@
   --main-blue: #222d4b;
   --main-blue-light: #334066;
   --main-gold: #c29a70;
+  --main-gold-dark: #936e43;
   --white: #ffffff;
 
   --off-white: #fafafa;
   --off-white-light: #f0f0f0;
   --off-white-dark: #f3f3f3;
-
-  --screen-xl: 1281px;
-  --screen-lg: 1025px;
-  --screen-md: 769px;
-  --screen-sm: 641px;
-  --screen-xs: 426px;
 }
 
 .app_container {

@@ -61,12 +61,16 @@ const Header = () => {
           <span className="link_separator"></span>
 
           <span>
-            <a href="/#contact">Contact Us</a>
+            <a href="/#contact" aria-label="contact us">
+              Contact Us
+            </a>
           </span>
           <span className="link_separator"></span>
 
           <div className="anchor_button">
-            <a href="/#query">Submit Your Query</a>
+            <a href="/#query" aria-label="submit your query">
+              Submit Your Query
+            </a>
           </div>
         </div>
       </div>
