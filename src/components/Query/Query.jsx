@@ -12,8 +12,7 @@ const Query = () => {
     e.preventDefault();
 
     const formData = new FormData(e.target);
-
-    formData.append("access_key", "36a68433-8307-49cd-9b2a-8bd41a88b224");
+    formData.append("access_key", "8b0fd863-b428-49cb-b895-421774e03632");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

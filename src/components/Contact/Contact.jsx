@@ -59,7 +59,7 @@ const Contact = () => {
                     target="_blank"
                   >
                     <i className="fa-solid fa-location-dot" />
-                    217, Block ‘S’, High Court of Delhi, Sher Shar Road, New
+                    217, Block ‘S’, High Court of Delhi, Sher Shah Road, New
                     Delhi – 110003
                   </a>
                 </div>
