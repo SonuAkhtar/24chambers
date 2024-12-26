@@ -10,6 +10,7 @@ import { useEffect } from "react";
 const Blogs = () => {
   const [blogsCount, setBlogsCount] = useState(4);
   const [totalBlogs, setTotalBlogs] = useState(blogsData.slice(0, 4));
+  const [showWarning, setShowWarning] = useState(false);
 
   useEffect(() => {
     const initialBlogs = blogsData.slice(0, blogsCount);
@@ -19,7 +20,7 @@ const Blogs = () => {
   const handleSeeMoreClick = () => {
     if (blogsCount < blogsData.length) {
       setBlogsCount((prev) => prev + 4);
-    }
+    } else setShowWarning(true);
   };
 
   return (
@@ -28,17 +29,22 @@ const Blogs = () => {
         <h1>Blogs</h1>
         <main>
           {totalBlogs?.map((data) => (
-            <a key={data.id} href={data.href} className="blog_card">
+            <div key={data.id} className="blog_card">
               <div className="image">
                 <img src={data.image} alt={data.altText} />
               </div>
               <div className="blog_card_details">
-                <div className="blog_title">{data.title}</div>
-                <div className="blog_date">{data.time}</div>
+                <a className="blog_title" href={data.href} target="_blank">
+                  {data.title.substring(0, 30)}...
+                </a>
+                <div className="blog_author">{data.author}</div>
               </div>
-            </a>
+            </div>
           ))}
         </main>
+        {showWarning && (
+          <div className="no_moreBlogs">No more blogs to show</div>
+        )}
         <button className="blogs_button" onClick={handleSeeMoreClick}>
           See More
         </button>
