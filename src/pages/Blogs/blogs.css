@@ -106,6 +106,7 @@
   .blogs_wrapper main {
     font-size: 2rem;
     line-height: 2.5rem;
+    padding: 0;
   }
 
   .blogs_wrapper main .blog_card {
