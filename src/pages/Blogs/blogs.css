@@ -35,7 +35,9 @@
   border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.25rem;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -49,6 +51,7 @@
 .blog_card .blog_card_details .blog_title {
   font-weight: 600;
   font-size: 0.9rem;
+  line-height: 1.1rem;
   color: inherit;
 }
 
@@ -96,8 +99,25 @@
 
 /* Responsive UI for large screen */
 @media screen and (max-width: 769px) {
+  .blogs {
+    padding-top: 0;
+  }
+
   .blogs_wrapper main {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+
+  .blogs_wrapper main .blog_card {
+    width: 300px;
+    max-width: 50%;
+  }
+}
+
+/* Responsive UI for smaller screen */
+@media screen and (max-width: 425px) {
+  .blogs_wrapper main .blog_card {
+    width: 350px;
+    max-width: 100%;
   }
 }
