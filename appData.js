@@ -190,56 +190,68 @@ export const profileData = [
 export const blogsData = [
   {
     id: 1,
-    title:
-      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
     image: "/Images/assets/about/counsel1.png",
     altText: "blog image",
-    href: "https://www.scconline.com/blog/post/2022/12/23/documentary-credits-and-performance-bonds-in-international-trade-two-sides-of-the-same-coin/",
+    title:
+      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+    practiceArea: "Criminal Law",
     author: "Tanvi Nigam",
+    publishedDate: "26/10/2024",
+    href: "https://www.scconline.com/blog/post/2022/12/23/documentary-credits-and-performance-bonds-in-international-trade-two-sides-of-the-same-coin/",
   },
   {
     id: 2,
-    title:
-      "Anti-Suit Injunctions by English Courts: An Improper Interference in Foreign Judicial Proceedings?",
     image: "/Images/assets/about/counsel1.png",
     altText: "blog image",
-    href: "https://www.scconline.com/blog/post/2022/09/06/anti-suit-injunctions-by-english-courts-an-improper-interference-in-foreign-judicial-proceedings/",
+    title:
+      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+    practiceArea: "Criminal Law",
     author: "Tanvi Nigam",
+    publishedDate: "26/10/2024",
+    href: "https://www.scconline.com/blog/post/2022/12/23/documentary-credits-and-performance-bonds-in-international-trade-two-sides-of-the-same-coin/",
   },
   {
     id: 3,
-    title:
-      "Declaration of Shipment and Notice of Nomination in International Trade Law",
     image: "/Images/assets/about/counsel1.png",
     altText: "blog image",
-    href: "https://articles.manupatra.com/article-details/Declaration-of-Shipment-and-Notice-of-Nomination-in-International-Trade-Law",
+    title:
+      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+    practiceArea: "Criminal Law",
     author: "Tanvi Nigam",
+    publishedDate: "26/10/2024",
+    href: "https://www.scconline.com/blog/post/2022/12/23/documentary-credits-and-performance-bonds-in-international-trade-two-sides-of-the-same-coin/",
   },
   {
     id: 4,
-    title:
-      "Case Comment on Four Seasons Holdings Inc. v. Brownlie — A UK Supreme Court Decision",
     image: "/Images/assets/about/counsel1.png",
     altText: "blog image",
-    href: "https://www.scconline.com/blog/post/2021/01/29/case-comment-on-four-seasons-holdings-inc-v-brownlie-a-uk-supreme-court-decision/",
+    title:
+      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+    practiceArea: "Criminal Law",
     author: "Tanvi Nigam",
+    publishedDate: "26/10/2024",
+    href: "https://www.scconline.com/blog/post/2022/12/23/documentary-credits-and-performance-bonds-in-international-trade-two-sides-of-the-same-coin/",
   },
-
   {
     id: 5,
-    title: "Insurable Interest: The Key Element Of Marine Insurance",
     image: "/Images/assets/about/counsel1.png",
     altText: "blog image",
-    href: "http://www.legaleagleweb.com/articalsdetail.aspx?newsid=3",
-    author: "Atul Nigam",
+    title:
+      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+    practiceArea: "Criminal Law",
+    author: "Tanvi Nigam",
+    publishedDate: "26/10/2024",
+    href: "https://www.scconline.com/blog/post/2022/12/23/documentary-credits-and-performance-bonds-in-international-trade-two-sides-of-the-same-coin/",
   },
   {
     id: 6,
-    title:
-      "Multi Party Arbitration Disputes and Joinder of Non-Signatories : In International Arbitration & Indian Context",
     image: "/Images/assets/about/counsel1.png",
     altText: "blog image",
-    href: "http://www.legaleagleweb.com/articalsdetail.aspx?newsid=1",
-    author: "Atul Nigam",
+    title:
+      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+    practiceArea: "Criminal Law",
+    author: "Tanvi Nigam",
+    publishedDate: "26/10/2024",
+    href: "https://www.scconline.com/blog/post/2022/12/23/documentary-credits-and-performance-bonds-in-international-trade-two-sides-of-the-same-coin/",
   },
 ];

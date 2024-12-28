@@ -1,11 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // import CSS
 import "./blogs.css";
 
 // appData
 import { blogsData } from "../../../appData";
-import { useEffect } from "react";
+
+// component
+import BlogCard from "../../components/BlogCard/BlogCard";
 
 const Blogs = () => {
   const [blogsCount, setBlogsCount] = useState(4);
@@ -29,17 +31,7 @@ const Blogs = () => {
         <h1>Blogs</h1>
         <main>
           {totalBlogs?.map((data) => (
-            <div key={data.id} className="blog_card">
-              <div className="image">
-                <img src={data.image} alt={data.altText} />
-              </div>
-              <div className="blog_card_details">
-                <a className="blog_title" href={data.href} target="_blank">
-                  {data.title.substring(0, 30)}...
-                </a>
-                <div className="blog_author">{data.author}</div>
-              </div>
-            </div>
+            <BlogCard data={data} />
           ))}
         </main>
         {showWarning && (
