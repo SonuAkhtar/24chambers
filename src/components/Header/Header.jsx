@@ -8,7 +8,7 @@ import "./header.css";
 import Hamburger from "../Hamburger/Hamburger";
 
 // import Images
-import logoImage from "/Images/assets/23chambers_logo.jpg";
+import logoImage from "/Images/23chambers_logo.jpg";
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);

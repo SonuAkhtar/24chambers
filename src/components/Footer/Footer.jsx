@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./footer.css";
 
 // import Images
-import logoImage from "/Images/assets/23chambers_logo.jpg";
+import logoImage from "/Images/23chambers_logo.jpg";
 
 const Footer = () => {
   return (

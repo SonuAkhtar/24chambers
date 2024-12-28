@@ -8,11 +8,11 @@ import "./aboutUs.css";
 import { teamCounselData } from "../../../appData";
 
 // import Images
-import image1 from "/Images/assets/about/Picture1.jpg";
-import image2 from "/Images/assets/about/Picture2.jpg";
-import image3 from "/Images/assets/about/Picture3.png";
-import image4 from "/Images/assets/about/Picture44.png";
-import image5 from "/Images/assets/about/Picture55.png";
+import image1 from "/Images/about/Picture1.jpg";
+import image2 from "/Images/about/Picture2.jpg";
+import image3 from "/Images/about/Picture3.png";
+import image4 from "/Images/about/Picture4.png";
+import image5 from "/Images/about/Picture5.png";
 
 const AboutUs = () => {
   useEffect(() => {}, [window.scrollTo(0, 0)]);

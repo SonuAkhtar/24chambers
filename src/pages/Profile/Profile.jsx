@@ -4,8 +4,6 @@ import { useParams } from "react-router-dom";
 // import CSS
 import "./profile.css";
 
-import image3 from "/Images/assets/about/Picture3.png";
-
 //import appData
 import { profileData } from "../../../appData";
 

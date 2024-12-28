@@ -66,19 +66,19 @@ export const teamCounselData = [
   {
     id: 1,
     name: "Ms Monica Bharadwaj",
-    image: "Images/assets/about/counsel1.png",
+    image: "Images/about/counsel1.png",
     expertise: "Civil Laws, Employment Laws and Banking Laws",
   },
   {
     id: 2,
     name: "Mr Ashwin Romy",
-    image: "Images/assets/about/counsel2.png",
+    image: "Images/about/counsel2.png",
     expertise: "Civil Laws and Service Law",
   },
   {
     id: 3,
     name: "Mr Kaustubh Shakkarwar",
-    image: "Images/assets/about/counsel3.png",
+    image: "Images/about/counsel3.png",
     expertise: "IP, TMT, Data Protection and Taxation",
   },
 ];
@@ -86,7 +86,7 @@ export const teamCounselData = [
 export const profileData = [
   {
     id: 1,
-    image: "/Images/assets/about/Picture3.png",
+    image: "/Images/about/Picture3.png",
     name: "Mr Atul Nigam",
     title: "Founder, 24 Chambers",
     phone: "+91 9810049589",
@@ -121,7 +121,7 @@ export const profileData = [
 
   {
     id: 2,
-    image: "/Images/assets/about/Picture44.png",
+    image: "/Images/about/Picture4.png",
     name: "Ms Tanvi Nigam",
     title: "Partner, 24 Chambers",
     phone: "",
@@ -158,7 +158,7 @@ export const profileData = [
 
   {
     id: 3,
-    image: "/Images/assets/about/Picture55.png",
+    image: "/Images/about/Picture5.png",
     name: "Mr Animesh Upadhyay",
     title: "Partner, 24 Chambers",
     phone: "",
@@ -190,7 +190,7 @@ export const profileData = [
 export const blogsData = [
   {
     id: 1,
-    image: "/Images/assets/blogs/blog-image1.png",
+    image: "/Images/blogs/blog-image1.png",
     altText: "blog image",
     title:
       "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
@@ -201,7 +201,7 @@ export const blogsData = [
   },
   {
     id: 2,
-    image: "/Images/assets/blogs/blog-image2.png",
+    image: "/Images/blogs/blog-image2.png",
     altText: "blog image",
     title:
       "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
@@ -212,7 +212,7 @@ export const blogsData = [
   },
   {
     id: 3,
-    image: "/Images/assets/blogs/blog-image3.png",
+    image: "/Images/blogs/blog-image3.png",
     altText: "blog image",
     title:
       "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
@@ -223,7 +223,7 @@ export const blogsData = [
   },
   {
     id: 4,
-    image: "/Images/assets/blogs/blog-image4.png",
+    image: "/Images/blogs/blog-image4.png",
     altText: "blog image",
     title:
       "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
@@ -234,7 +234,7 @@ export const blogsData = [
   },
   {
     id: 5,
-    image: "/Images/assets/blogs/blog-image5.png",
+    image: "/Images/blogs/blog-image5.png",
     altText: "blog image",
     title:
       "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
@@ -245,7 +245,7 @@ export const blogsData = [
   },
   {
     id: 6,
-    image: "/Images/assets/blogs/blog-image6.png",
+    image: "/Images/blogs/blog-image6.png",
     altText: "blog image",
     title:
       "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
