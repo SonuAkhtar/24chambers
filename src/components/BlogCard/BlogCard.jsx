@@ -14,7 +14,7 @@ const BlogCard = ({ data }) => {
           {data.practiceArea}
         </div>
         <div className="blog_author">
-          <span>Author : </span>
+          <span>Author(s): </span>
           {data.author}
         </div>
         <div className="blog_publishedDate">
