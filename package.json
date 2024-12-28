@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "prod-build": "rm -r dist && npm run build",
-    "prod-push": "git subtree push --prefix dist origin dist-folder",
+    "prod-push": "git subtree push --prefix dist origin dist-folder && git push",
     "preview": "vite preview"
   },
   "dependencies": {
