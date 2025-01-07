@@ -204,7 +204,7 @@ export const blogsData = [
     image: "/Images/blogs/blog-image2.png",
     altText: "blog image",
     title:
-      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+      "Anti-Suit Injunctions by English Courts: An Improper Interference in Foreign Judicial Proceedings?",
     practiceArea: "International Commercial Litigation",
     author: "Tanvi Nigam",
     publishedDate: "06.09.2022",
@@ -215,18 +215,18 @@ export const blogsData = [
     image: "/Images/blogs/blog-image3.png",
     altText: "blog image",
     title:
-      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+      "Declaration of Shipment and Notice of Nomination in International Trade Law",
     practiceArea: "International Trade Law",
     author: "Tanvi Nigam",
     publishedDate: "29.08.2022",
-    href: "https://www.scconline.com/blog/post/2022/09/06/anti-suit-injunctions-by-english-courts-an-improper-interference-in-foreign-judicial-proceedings/",
+    href: "https://articles.manupatra.com/article-details/Declaration-of-Shipment-and-Notice-of-Nomination-in-International-Trade-Law",
   },
   {
     id: 4,
     image: "/Images/blogs/blog-image4.png",
     altText: "blog image",
     title:
-      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+      "Case Comment on Four Seasons Holdings Inc. v. Brownlie — A UK Supreme Court Decision",
     practiceArea: "International Commercial Litigation (Case Comment) ",
     author: "Tanvi Nigam",
     publishedDate: "29.01.2021",
@@ -236,8 +236,7 @@ export const blogsData = [
     id: 5,
     image: "/Images/blogs/blog-image5.png",
     altText: "blog image",
-    title:
-      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+    title: "Insurable Interest: The Key Element Of Marine Insurance",
     practiceArea: "Insurance Law",
     author: "Atul Nigam",
     publishedDate: "09.08.2020",
@@ -248,7 +247,7 @@ export const blogsData = [
     image: "/Images/blogs/blog-image6.png",
     altText: "blog image",
     title:
-      "Documentary Credits and Performance Bonds in International Trade: Two Sides of the Same Coin?",
+      "Multi Party Arbitration Disputes and Joinder of Non-Signatories : In International Arbitration & Indian Context",
     practiceArea: "Arbitration",
     author: "Atul Nigam",
     publishedDate: "19.07.2020",
