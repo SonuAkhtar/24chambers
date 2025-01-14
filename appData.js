@@ -253,4 +253,25 @@ export const blogsData = [
     publishedDate: "19.07.2020",
     href: "https://www.legaleagleweb.com/articalsdetail.aspx?newsid=1",
   },
+  {
+    id: 7,
+    image: "/Images/blogs/blog-image7.png",
+    altText: "blog image",
+    title: "IBC AMENDMENT 2020: A STEP FOR PROMOTION OF REAL ESTATE",
+    practiceArea: "Insolvency Law",
+    author: "Animesh Upadhyay",
+    publishedDate: "30.03.2020",
+    href: "https://thecclrblog.wordpress.com/2020/03/30/ibc-amendment-2020-a-step-for-promotion-of-real-estate/",
+  },
+  {
+    id: 8,
+    image: "/Images/blogs/blog-image8.png",
+    altText: "blog image",
+    title:
+      "Jet Airways CIRP : Need To Adopt UNCITRAL Model Law On Cross Border Insolvency",
+    practiceArea: "Insolvency Law",
+    author: "Animesh Upadhyay",
+    publishedDate: "01.11.2019",
+    href: "https://www.livelaw.in/columns/deliberating-the-need-to-adopt-uncitral-model-law-149389",
+  },
 ];
