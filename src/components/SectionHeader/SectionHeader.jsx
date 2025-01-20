@@ -1,5 +1,4 @@
-// import CSS
-import "./sectionHeader.css";
+import "./sectionHeader.css"; // CSS
 
 const SectionHeader = ({ title, subtitle, color = "dark" }) => {
   return (

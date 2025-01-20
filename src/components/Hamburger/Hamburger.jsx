@@ -1,5 +1,4 @@
-// import css
-import "./hamburger.css";
+import "./hamburger.css"; // CSS
 
 const Hamburger = ({ mobileMenu, setMobileMenu }) => {
   return (

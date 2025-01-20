@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-// import CSS
-import "./profile.css";
+import "./profile.css"; // CSS
 
 //import appData
 import { profileData } from "../../../appData";

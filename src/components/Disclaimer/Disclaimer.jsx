@@ -3,8 +3,7 @@ import { useState } from "react";
 // import AppData
 import { disclaimerData } from "../../../appData";
 
-// import CSS
-import "./disclaimer.css";
+import "./disclaimer.css"; // CSS
 
 const Disclaimer = () => {
   const [hide, setHide] = useState(false);

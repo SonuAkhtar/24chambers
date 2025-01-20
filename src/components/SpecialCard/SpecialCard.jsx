@@ -1,5 +1,4 @@
-// import CSS
-import "./specialCard.css";
+import "./specialCard.css"; // CSS
 
 const SpecialCard = ({ icon, title, subtitle }) => {
   return (

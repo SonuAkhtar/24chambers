@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-// import CSS
-import "./header.css";
+import "./header.css"; // CSS
 
 // import Components
 import Hamburger from "../Hamburger/Hamburger";
@@ -14,8 +13,6 @@ const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showSubLinks, setShowSubLinks] = useState(false);
   const params = useParams();
-
-  console.log(window.location.pathname);
 
   const handleLinksClick = (e) => {
     if (e.target.tagName === "A") setMobileMenu(false);
@@ -61,9 +58,7 @@ const Header = () => {
           <span className="link_separator"></span>
 
           <span>
-            <a href="/#contact" aria-label="contact us">
-              Contact Us
-            </a>
+            <Link to="/#contact">Contact Us</Link>
           </span>
           <span className="link_separator"></span>
 

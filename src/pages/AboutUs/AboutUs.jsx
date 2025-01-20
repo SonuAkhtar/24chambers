@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-// import CSS
-import "./aboutUs.css";
+import "./aboutUs.css"; // CSS
 
 // import appData
 import { teamCounselData } from "../../../appData";

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
-// import CSS
-import "./blogs.css";
+import "./blogs.css"; // CSS
 
 // appData
 import { blogsData } from "../../../appData";
@@ -31,7 +30,7 @@ const Blogs = () => {
         <h1>Blogs</h1>
         <main>
           {totalBlogs?.map((data) => (
-            <BlogCard data={data} />
+            <BlogCard key={data.id} data={data} />
           ))}
         </main>
         {showWarning && (

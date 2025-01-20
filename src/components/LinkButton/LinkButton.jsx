@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-// import CSS
-import "./linkButton.css";
+import "./linkButton.css"; // CSS
 
 const LinkButton = ({ link, text, icon, color = "" }) => {
   return (

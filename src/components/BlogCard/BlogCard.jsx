@@ -1,7 +1,6 @@
-import "./blogCard.css";
+import "./blogCard.css"; // CSS
 
 const BlogCard = ({ data }) => {
-  console.log(data);
   return (
     <div key={data.id} className="blog_card_wrapper">
       <div className="blog_image">

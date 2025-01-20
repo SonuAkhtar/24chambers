@@ -1,8 +1,7 @@
 import { useState } from "react";
 import Swal from "sweetalert2";
 
-// import CSS
-import "./query.css";
+import "./query.css"; // CSS
 
 // import Components
 import SectionHeader from "../SectionHeader/SectionHeader";

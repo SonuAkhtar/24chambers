@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
-// import CSS
-import "./specialisation.css";
+import "./specialisation.css"; // CSS
 
 // import Components
 import SectionHeader from "../../components/SectionHeader/SectionHeader";

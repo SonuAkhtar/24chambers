@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-// import CSS
-import "./footer.css";
+import "./footer.css"; // CSS
 
 // import Images
 import logoImage from "/Images/23chambers_logo.jpg";

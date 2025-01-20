@@ -1,5 +1,4 @@
-// import CSS
-import "./hero.css";
+import "./hero.css"; // CSS
 
 const Hero = () => {
   return (

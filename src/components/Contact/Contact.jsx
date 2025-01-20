@@ -1,5 +1,4 @@
-// import CSS
-import "./contact.css";
+import "./contact.css"; // CSS
 
 // import Components
 import SectionHeader from "../SectionHeader/SectionHeader";
