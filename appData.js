@@ -91,7 +91,7 @@ export const profileData = [
     title: "Founder, 24 Chambers",
     phone: "+91 9810049589",
     email: "anigam.law@gmail.com",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/atul-nigam-76b596171/",
     practice: "Litigation and Dispute Resolution",
     specialization:
       "Civil Law, Commercial Law, Insurance Law, Property Law, Commercial and Infrastructure Arbitration",
@@ -126,7 +126,7 @@ export const profileData = [
     title: "Partner, 24 Chambers",
     phone: "",
     email: "tanvi.nigam@24chambers.in",
-    linkedin: "www.linkedin.com/in/tanvi-nigam-a07753151",
+    linkedin: "https://www.linkedin.com/in/tanvi-nigam-a07753151/",
     practice: "",
     specialization: "",
     expertise:

@@ -49,7 +49,11 @@ const Profile = () => {
                 <div className="profile_email">
                   <i className="fa-solid fa-envelope" /> {currentProfile?.email}
                 </div>
-                <a href={currentProfile?.linkedin} className="profile_linkedin">
+                <a
+                  href={currentProfile?.linkedin}
+                  className="profile_linkedin"
+                  target="_blank"
+                >
                   <i className="fa-brands fa-linkedin-in" />
                 </a>
               </div>
